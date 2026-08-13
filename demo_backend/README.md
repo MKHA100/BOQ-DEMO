@@ -14,10 +14,14 @@ Stop the real backend first if it is already using port 8000.
 
 ## Deploying the demo API
 
-Build the Docker image from the repository root:
+In Railway, configure the service root directory as `/demo_backend` and use
+`demo_backend/Dockerfile`. Do not set a separate Railway start command: the
+image invokes its startup script, which expands Railway's `PORT` correctly.
+
+To build locally:
 
 ```bash
-docker build -f demo_backend/Dockerfile -t autoboq-demo-api .
+docker build -f demo_backend/Dockerfile -t autoboq-demo-api demo_backend
 docker run --rm -p 8000:8000 -e PORT=8000 -e CORS_ORIGINS=http://localhost:3000 autoboq-demo-api
 ```
 
