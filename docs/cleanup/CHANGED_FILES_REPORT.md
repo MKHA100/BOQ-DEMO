@@ -1,0 +1,1172 @@
+# Changed Files Report
+
+- Retained unchanged: **80** files
+- Modified: **34** files
+- Added: **21** files
+- Removed from clean copy: **745** files
+
+## Modified files
+
+- `.env.example`
+- `README.md`
+- `backend/app/api/router.py`
+- `backend/app/api/v1/platform_routes.py`
+- `backend/app/api/v1/project_routes.py`
+- `backend/app/core/config.py`
+- `backend/app/database/migrate_sqlite_to_postgres.py`
+- `backend/app/database/session.py`
+- `backend/app/jobs/job_models.py`
+- `backend/app/jobs/worker.py`
+- `backend/app/main.py`
+- `backend/app/platform/platform_schemas.py`
+- `backend/app/platform/platform_service.py`
+- `backend/app/projects/project_repository.py`
+- `backend/app/projects/project_schemas.py`
+- `backend/app/projects/project_service.py`
+- `backend/app/storage/local_storage.py`
+- `backend/app/storage/storage_paths.py`
+- `backend/requirements.txt`
+- `frontend/.env.example`
+- `frontend/app/layout.tsx`
+- `frontend/app/login/page.tsx`
+- `frontend/app/projects/page.tsx`
+- `frontend/app/upload/page.tsx`
+- `frontend/app/workspace/[projectId]/page.tsx`
+- `frontend/features/platform/components/PlatformPages.tsx`
+- `frontend/features/platform/components/PlatformShell.tsx`
+- `frontend/features/platform/services/platformService.ts`
+- `frontend/features/projects/services/projectService.ts`
+- `frontend/package-lock.json`
+- `frontend/package.json`
+- `frontend/shared/constants/appRoutes.ts`
+- `frontend/shared/types/apiTypes.ts`
+- `frontend/styles/globals.css`
+
+## Added files
+
+- `backend/.env.example`
+- `backend/Dockerfile`
+- `backend/app/tests/test_clean_structure.py`
+- `backend/app/tests/test_job_registry.py`
+- `backend/app/tests/test_projects.py`
+- `backend/app/tests/test_schema.py`
+- `docs/cleanup/BACKEND_ENDPOINT_INVENTORY.csv`
+- `docs/cleanup/CHANGED_FILES_REPORT.md`
+- `docs/cleanup/DEPENDENCY_AND_RISK_REPORT.md`
+- `docs/cleanup/EXECUTIVE_ARCHITECTURE_SUMMARY.md`
+- `docs/cleanup/FILE_CLASSIFICATION.csv`
+- `docs/cleanup/NEW_PROJECT_STRUCTURE.txt`
+- `docs/cleanup/PDF_WORKFLOW_FILES.csv`
+- `docs/cleanup/PDF_WORKFLOW_MAP.md`
+- `docs/cleanup/README.md`
+- `docs/cleanup/REUSABLE_LOGIC_INVENTORY.md`
+- `docs/cleanup/VERIFICATION_REPORT.md`
+- `frontend/app/pdf-generation/page.tsx`
+- `frontend/features/pdf-generation/components/PdfGenerationPage.tsx`
+- `frontend/features/project-create/components/ProjectCreateForm.tsx`
+- `frontend/features/project-overview/components/ProjectOverviewPage.tsx`
+
+## Removed files
+
+- `BOQ_MODULE_README.md`
+- `CLAUDE.md`
+- `backend/app/ai_detection/__init__.py`
+- `backend/app/ai_detection/detection_cleaner.py`
+- `backend/app/ai_detection/detection_repository.py`
+- `backend/app/ai_detection/detection_schemas.py`
+- `backend/app/ai_detection/detection_service.py`
+- `backend/app/ai_detection/providers/__init__.py`
+- `backend/app/ai_detection/providers/base_provider.py`
+- `backend/app/ai_detection/providers/roboflow_provider.py`
+- `backend/app/ai_refinement/__init__.py`
+- `backend/app/ai_refinement/elevation_refinement_service.py`
+- `backend/app/ai_refinement/openai_vision_provider.py`
+- `backend/app/ai_refinement/provider_base.py`
+- `backend/app/ai_refinement/refinement_schemas.py`
+- `backend/app/api/v1/acc_import_routes.py`
+- `backend/app/api/v1/boq_autodesk_routes.py`
+- `backend/app/api/v1/boq_description_routes.py`
+- `backend/app/api/v1/boq_google_routes.py`
+- `backend/app/api/v1/boq_routes.py`
+- `backend/app/api/v1/boq_settings_routes.py`
+- `backend/app/api/v1/boq_setup_routes.py`
+- `backend/app/api/v1/boq_template_routes.py`
+- `backend/app/api/v1/canonical_takeoff_routes.py`
+- `backend/app/api/v1/costx_import_routes.py`
+- `backend/app/api/v1/crop_routes.py`
+- `backend/app/api/v1/detection_routes.py`
+- `backend/app/api/v1/door_window_schedule_routes.py`
+- `backend/app/api/v1/drawing_setup_routes.py`
+- `backend/app/api/v1/element_detail_routes.py`
+- `backend/app/api/v1/element_match_routes.py`
+- `backend/app/api/v1/element_type_routes.py`
+- `backend/app/api/v1/export_routes.py`
+- `backend/app/api/v1/exterior_boundary_routes.py`
+- `backend/app/api/v1/external_import_routes.py`
+- `backend/app/api/v1/floor_area_routes.py`
+- `backend/app/api/v1/floor_takeoff_routes.py`
+- `backend/app/api/v1/job_routes.py`
+- `backend/app/api/v1/mapping_routes.py`
+- `backend/app/api/v1/pdf_routes.py`
+- `backend/app/api/v1/plan_tag_routes.py`
+- `backend/app/api/v1/project_status_routes.py`
+- `backend/app/api/v1/revit_import_routes.py`
+- `backend/app/api/v1/scale_routes.py`
+- `backend/app/api/v1/schedule_routes.py`
+- `backend/app/api/v1/spec_extraction_routes.py`
+- `backend/app/api/v1/supporting_document_routes.py`
+- `backend/app/api/v1/takeoff_export_routes.py`
+- `backend/app/api/v1/template_package_routes.py`
+- `backend/app/api/v1/wall_measurement_routes.py`
+- `backend/app/api/v1/wall_takeoff_routes.py`
+- `backend/app/boq/__init__.py`
+- `backend/app/boq/adapters/__init__.py`
+- `backend/app/boq/adapters/canonical_takeoff_adapter.py`
+- `backend/app/boq/adapters/praveen_json_adapter.py`
+- `backend/app/boq/descriptions/__init__.py`
+- `backend/app/boq/descriptions/ai_description_service.py`
+- `backend/app/boq/descriptions/custom_description_repository.py`
+- `backend/app/boq/exporters/__init__.py`
+- `backend/app/boq/exporters/csv_boq_exporter.py`
+- `backend/app/boq/exporters/excel_boq_exporter.py`
+- `backend/app/boq/exporters/export_file_service.py`
+- `backend/app/boq/exporters/pdf_boq_exporter.py`
+- `backend/app/boq/integrations/__init__.py`
+- `backend/app/boq/integrations/ai/__init__.py`
+- `backend/app/boq/integrations/autodesk/__init__.py`
+- `backend/app/boq/integrations/google/__init__.py`
+- `backend/app/boq/nrm/__init__.py`
+- `backend/app/boq/nrm/boq_vocabulary.py`
+- `backend/app/boq/nrm/nrm_mapping.py`
+- `backend/app/boq/poller/__init__.py`
+- `backend/app/boq/repositories/__init__.py`
+- `backend/app/boq/repositories/boq_repository.py`
+- `backend/app/boq/repositories/template_repository.py`
+- `backend/app/boq/rules/__init__.py`
+- `backend/app/boq/rules/nrm2_measurement_rules.py`
+- `backend/app/boq/rules/nrm2_section_mapper.py`
+- `backend/app/boq/schemas/__init__.py`
+- `backend/app/boq/schemas/boq_schemas.py`
+- `backend/app/boq/schemas/template_schemas.py`
+- `backend/app/boq/services/__init__.py`
+- `backend/app/boq/services/boq_generator.py`
+- `backend/app/boq/services/boq_grouping_service.py`
+- `backend/app/boq/services/boq_item_grouping_service.py`
+- `backend/app/boq/services/boq_quantity_resolver.py`
+- `backend/app/boq/services/boq_service.py`
+- `backend/app/boq/services/formal_boq_report_builder.py`
+- `backend/app/boq/services/nrm_section_mapper.py`
+- `backend/app/boq/services/structured_boq_builder.py`
+- `backend/app/boq/services/wall_void_deduction_service.py`
+- `backend/app/boq/templates/__init__.py`
+- `backend/app/boq/templates/conditional_template_engine.py`
+- `backend/app/boq/templates/template_placeholder_service.py`
+- `backend/app/boq/templates/template_service.py`
+- `backend/app/boq_settings/__init__.py`
+- `backend/app/boq_settings/boq_settings_repository.py`
+- `backend/app/boq_settings/boq_settings_schemas.py`
+- `backend/app/boq_settings/boq_settings_service.py`
+- `backend/app/boq_setup/__init__.py`
+- `backend/app/boq_setup/boq_setup_repository.py`
+- `backend/app/boq_setup/boq_setup_schemas.py`
+- `backend/app/boq_setup/boq_setup_service.py`
+- `backend/app/canonical_takeoff/__init__.py`
+- `backend/app/canonical_takeoff/importers/__init__.py`
+- `backend/app/canonical_takeoff/importers/tabular_import_service.py`
+- `backend/app/canonical_takeoff/mappers/__init__.py`
+- `backend/app/canonical_takeoff/mappers/acc_mapper.py`
+- `backend/app/canonical_takeoff/mappers/costx_mapper.py`
+- `backend/app/canonical_takeoff/mappers/external_json_mapper.py`
+- `backend/app/canonical_takeoff/mappers/reviewed_json_mapper.py`
+- `backend/app/canonical_takeoff/mappers/revit_mapper.py`
+- `backend/app/canonical_takeoff/repository.py`
+- `backend/app/canonical_takeoff/schemas.py`
+- `backend/app/canonical_takeoff/schemas/__init__.py`
+- `backend/app/canonical_takeoff/schemas/canonical_takeoff_schemas.py`
+- `backend/app/canonical_takeoff/service.py`
+- `backend/app/crop_processing/__init__.py`
+- `backend/app/crop_processing/crop_boundary_validator.py`
+- `backend/app/crop_processing/crop_coordinate_converter.py`
+- `backend/app/crop_processing/crop_schemas.py`
+- `backend/app/crop_processing/crop_service.py`
+- `backend/app/crop_processing/polygon_cropper.py`
+- `backend/app/crop_processing/rectangle_cropper.py`
+- `backend/app/database/models/__init__.py`
+- `backend/app/database/models/crop_model.py`
+- `backend/app/database/models/detection_model.py`
+- `backend/app/database/models/export_model.py`
+- `backend/app/database/models/pdf_page_model.py`
+- `backend/app/database/models/project_model.py`
+- `backend/app/drawing_setup/__init__.py`
+- `backend/app/drawing_setup/drawing_setup_schemas.py`
+- `backend/app/drawing_setup/drawing_setup_service.py`
+- `backend/app/element_details/__init__.py`
+- `backend/app/element_details/element_detail_repository.py`
+- `backend/app/element_details/element_detail_service.py`
+- `backend/app/element_details/element_processing_service.py`
+- `backend/app/element_details/type_group_service.py`
+- `backend/app/element_matching/__init__.py`
+- `backend/app/element_matching/element_match_schemas.py`
+- `backend/app/element_matching/element_match_service.py`
+- `backend/app/element_matching/element_schedule_matcher.py`
+- `backend/app/element_matching/match_scoring.py`
+- `backend/app/element_types/__init__.py`
+- `backend/app/element_types/element_type_repository.py`
+- `backend/app/element_types/element_type_schemas.py`
+- `backend/app/element_types/element_type_service.py`
+- `backend/app/elevation_analysis/__init__.py`
+- `backend/app/elevation_analysis/element_wall_assignment_service.py`
+- `backend/app/elevation_analysis/elevation_crop_schemas.py`
+- `backend/app/elevation_analysis/elevation_crop_service.py`
+- `backend/app/elevation_analysis/height_detection_service.py`
+- `backend/app/elevation_analysis/opening_measurement_service.py`
+- `backend/app/elevation_analysis/projection_geometry.py`
+- `backend/app/elevation_analysis/wall_height_service.py`
+- `backend/app/export_service/__init__.py`
+- `backend/app/export_service/export_repository.py`
+- `backend/app/export_service/export_schemas.py`
+- `backend/app/export_service/export_service.py`
+- `backend/app/export_service/image_exporter.py`
+- `backend/app/export_service/metadata_exporter.py`
+- `backend/app/export_service/pdf_exporter.py`
+- `backend/app/export_service/takeoff_json_service.py`
+- `backend/app/export_service/zip_exporter.py`
+- `backend/app/exterior_boundary/__init__.py`
+- `backend/app/exterior_boundary/exterior_boundary_geometry.py`
+- `backend/app/exterior_boundary/exterior_boundary_schemas.py`
+- `backend/app/exterior_boundary/exterior_boundary_service.py`
+- `backend/app/floor_areas/__init__.py`
+- `backend/app/floor_areas/floor_area_repository.py`
+- `backend/app/floor_areas/floor_area_schemas.py`
+- `backend/app/floor_areas/floor_area_service.py`
+- `backend/app/floor_areas/geometry/__init__.py`
+- `backend/app/floor_areas/geometry/area_calculator.py`
+- `backend/app/floor_areas/geometry/centerline_builder.py`
+- `backend/app/floor_areas/geometry/floor_area_types.py`
+- `backend/app/floor_areas/geometry/opening_bridge_builder.py`
+- `backend/app/floor_areas/geometry/room_polygon_builder.py`
+- `backend/app/floor_takeoff/__init__.py`
+- `backend/app/floor_takeoff/floor_area_compare_service.py`
+- `backend/app/floor_takeoff/floor_centerline_service.py`
+- `backend/app/floor_takeoff/floor_confidence_service.py`
+- `backend/app/floor_takeoff/floor_door_threshold_service.py`
+- `backend/app/floor_takeoff/floor_image_preprocessor.py`
+- `backend/app/floor_takeoff/floor_inside_face_service.py`
+- `backend/app/floor_takeoff/floor_manual_polygon_service.py`
+- `backend/app/floor_takeoff/floor_net_area_service.py`
+- `backend/app/floor_takeoff/floor_opening_centerline_service.py`
+- `backend/app/floor_takeoff/floor_polygon_filter_service.py`
+- `backend/app/floor_takeoff/floor_polygon_validation.py`
+- `backend/app/floor_takeoff/floor_review_service.py`
+- `backend/app/floor_takeoff/floor_room_label_service.py`
+- `backend/app/floor_takeoff/floor_room_polygonizer.py`
+- `backend/app/floor_takeoff/floor_schedule_matcher.py`
+- `backend/app/floor_takeoff/floor_spec_resolver.py`
+- `backend/app/floor_takeoff/floor_takeoff_repository.py`
+- `backend/app/floor_takeoff/floor_takeoff_schemas.py`
+- `backend/app/floor_takeoff/floor_takeoff_service.py`
+- `backend/app/floor_takeoff/floor_text_region_service.py`
+- `backend/app/floor_takeoff/floor_wall_graph_builder.py`
+- `backend/app/floor_takeoff/floor_zone_geometry.py`
+- `backend/app/floor_takeoff/floor_zone_service.py`
+- `backend/app/floor_takeoff/nrm2_floor_rules.py`
+- `backend/app/image_processing/__init__.py`
+- `backend/app/image_processing/image_cleaner.py`
+- `backend/app/image_processing/image_format_converter.py`
+- `backend/app/image_processing/image_quality_checker.py`
+- `backend/app/image_processing/image_schemas.py`
+- `backend/app/jobs/background_job_service.py`
+- `backend/app/jobs/boq_jobs.py`
+- `backend/app/jobs/detection_jobs.py`
+- `backend/app/jobs/final_review_jobs.py`
+- `backend/app/jobs/floor_takeoff_jobs.py`
+- `backend/app/jobs/pdf_jobs.py`
+- `backend/app/jobs/specification_jobs.py`
+- `backend/app/jobs/wall_measurement_jobs.py`
+- `backend/app/jobs/wall_takeoff_jobs.py`
+- `backend/app/model_input/__init__.py`
+- `backend/app/model_input/model_input_schemas.py`
+- `backend/app/model_input/model_metadata_builder.py`
+- `backend/app/model_input/model_package_service.py`
+- `backend/app/pdf_processing/__init__.py`
+- `backend/app/pdf_processing/pdf_metadata_reader.py`
+- `backend/app/pdf_processing/pdf_page_service.py`
+- `backend/app/pdf_processing/pdf_renderer.py`
+- `backend/app/pdf_processing/pdf_schemas.py`
+- `backend/app/plan_tagging/__init__.py`
+- `backend/app/plan_tagging/plan_tag_schemas.py`
+- `backend/app/plan_tagging/plan_tag_service.py`
+- `backend/app/plan_tagging/tag_ocr_service.py`
+- `backend/app/plan_tagging/tag_search_geometry.py`
+- `backend/app/project_status/__init__.py`
+- `backend/app/project_status/project_status_models.py`
+- `backend/app/project_status/project_status_repository.py`
+- `backend/app/project_status/project_status_service.py`
+- `backend/app/scale/__init__.py`
+- `backend/app/scale/scale_repository.py`
+- `backend/app/scale/scale_service.py`
+- `backend/app/scale_calibration/__init__.py`
+- `backend/app/scale_calibration/scale_schemas.py`
+- `backend/app/scale_calibration/scale_service.py`
+- `backend/app/schedules/__init__.py`
+- `backend/app/schedules/door_window_schedule_service.py`
+- `backend/app/schedules/schedule_schemas.py`
+- `backend/app/spec_extraction/__init__.py`
+- `backend/app/spec_extraction/extraction_document_classifier.py`
+- `backend/app/spec_extraction/project_schedule_library_service.py`
+- `backend/app/spec_extraction/providers/__init__.py`
+- `backend/app/spec_extraction/providers/openai_provider.py`
+- `backend/app/spec_extraction/spec_extraction_repository.py`
+- `backend/app/spec_extraction/spec_extraction_schemas.py`
+- `backend/app/spec_extraction/spec_extraction_service.py`
+- `backend/app/spec_extraction/wall_spec_normalizer.py`
+- `backend/app/supporting_documents/__init__.py`
+- `backend/app/supporting_documents/supporting_document_repository.py`
+- `backend/app/supporting_documents/supporting_document_schemas.py`
+- `backend/app/supporting_documents/supporting_document_service.py`
+- `backend/app/takeoff/__init__.py`
+- `backend/app/tasks/__init__.py`
+- `backend/app/tasks/crop_tasks.py`
+- `backend/app/tasks/export_tasks.py`
+- `backend/app/tasks/pdf_tasks.py`
+- `backend/app/tasks/worker.py`
+- `backend/app/template_packages/__init__.py`
+- `backend/app/template_packages/template_package_repository.py`
+- `backend/app/template_packages/template_package_schemas.py`
+- `backend/app/template_packages/template_package_service.py`
+- `backend/app/tests/test_app_mode_config.py`
+- `backend/app/tests/test_background_jobs.py`
+- `backend/app/tests/test_boq_data_priority.py`
+- `backend/app/tests/test_boq_floor_area_items.py`
+- `backend/app/tests/test_boq_generator.py`
+- `backend/app/tests/test_boq_grouped_quantities.py`
+- `backend/app/tests/test_boq_praveen_json_adapter.py`
+- `backend/app/tests/test_boq_wall_measurement_priority.py`
+- `backend/app/tests/test_boq_worker_jobs.py`
+- `backend/app/tests/test_crop_coordinates.py`
+- `backend/app/tests/test_crop_processing.py`
+- `backend/app/tests/test_crop_validation.py`
+- `backend/app/tests/test_database_backend_selection.py`
+- `backend/app/tests/test_detection_worker_jobs.py`
+- `backend/app/tests/test_element_matching.py`
+- `backend/app/tests/test_final_review_worker_jobs.py`
+- `backend/app/tests/test_floor_area_calculation.py`
+- `backend/app/tests/test_floor_area_centerlines.py`
+- `backend/app/tests/test_floor_area_comparison.py`
+- `backend/app/tests/test_floor_area_polygon_builder.py`
+- `backend/app/tests/test_floor_area_routes.py`
+- `backend/app/tests/test_floor_areas_page_api.py`
+- `backend/app/tests/test_floor_areas_to_boq_safe_sync.py`
+- `backend/app/tests/test_floor_boq_exports.py`
+- `backend/app/tests/test_floor_boq_grouping.py`
+- `backend/app/tests/test_floor_boq_quantity.py`
+- `backend/app/tests/test_floor_boq_template_type.py`
+- `backend/app/tests/test_floor_centerline_service.py`
+- `backend/app/tests/test_floor_crop_missing_state.py`
+- `backend/app/tests/test_floor_door_threshold_service.py`
+- `backend/app/tests/test_floor_inside_face_service.py`
+- `backend/app/tests/test_floor_irregular_room_polygon.py`
+- `backend/app/tests/test_floor_manual_polygon_service.py`
+- `backend/app/tests/test_floor_net_area_service.py`
+- `backend/app/tests/test_floor_opening_centerline_service.py`
+- `backend/app/tests/test_floor_polygon_validation.py`
+- `backend/app/tests/test_floor_room_label_service.py`
+- `backend/app/tests/test_floor_room_polygonizer.py`
+- `backend/app/tests/test_floor_spec_extraction.py`
+- `backend/app/tests/test_floor_takeoff_engine.py`
+- `backend/app/tests/test_floor_takeoff_worker_jobs.py`
+- `backend/app/tests/test_floor_text_region_service.py`
+- `backend/app/tests/test_floor_to_final_review_sync.py`
+- `backend/app/tests/test_floor_wall_mask_room_detection.py`
+- `backend/app/tests/test_full_neon_r2_pipeline.py`
+- `backend/app/tests/test_full_pipeline_integration.py`
+- `backend/app/tests/test_model_metadata.py`
+- `backend/app/tests/test_pdf_worker_jobs.py`
+- `backend/app/tests/test_plan_tagging.py`
+- `backend/app/tests/test_postgres_project_flow.py`
+- `backend/app/tests/test_project_status_cache.py`
+- `backend/app/tests/test_project_status_wall_measurement.py`
+- `backend/app/tests/test_r2_storage_flow.py`
+- `backend/app/tests/test_spec_extraction.py`
+- `backend/app/tests/test_specification_worker_jobs.py`
+- `backend/app/tests/test_storage_backend_selection.py`
+- `backend/app/tests/test_supporting_documents.py`
+- `backend/app/tests/test_wall_area_drawing_service.py`
+- `backend/app/tests/test_wall_area_matching_service.py`
+- `backend/app/tests/test_wall_area_opening_deduction_service.py`
+- `backend/app/tests/test_wall_area_polygon_service.py`
+- `backend/app/tests/test_wall_area_scale_service.py`
+- `backend/app/tests/test_wall_boq_grouping.py`
+- `backend/app/tests/test_wall_detection_import.py`
+- `backend/app/tests/test_wall_fast_update_service.py`
+- `backend/app/tests/test_wall_geometry.py`
+- `backend/app/tests/test_wall_grouping_service.py`
+- `backend/app/tests/test_wall_height_alignment_geometry.py`
+- `backend/app/tests/test_wall_height_alignment_service.py`
+- `backend/app/tests/test_wall_height_mapping.py`
+- `backend/app/tests/test_wall_height_reference_alignment_service.py`
+- `backend/app/tests/test_wall_height_reference_geometry.py`
+- `backend/app/tests/test_wall_height_source_matcher.py`
+- `backend/app/tests/test_wall_height_source_service.py`
+- `backend/app/tests/test_wall_height_zone_service.py`
+- `backend/app/tests/test_wall_location_sync_service.py`
+- `backend/app/tests/test_wall_measurement_jobs.py`
+- `backend/app/tests/test_wall_measurement_repository.py`
+- `backend/app/tests/test_wall_measurement_schemas.py`
+- `backend/app/tests/test_wall_opening_deductions.py`
+- `backend/app/tests/test_wall_plan_import_service.py`
+- `backend/app/tests/test_wall_plan_preview_service.py`
+- `backend/app/tests/test_wall_review_sync.py`
+- `backend/app/tests/test_wall_source_filter.py`
+- `backend/app/tests/test_wall_source_scanner.py`
+- `backend/app/tests/test_wall_spec_resolver.py`
+- `backend/app/tests/test_wall_takeoff_engine.py`
+- `backend/app/tests/test_wall_takeoff_worker_jobs.py`
+- `backend/app/tests/test_wall_type_assignment.py`
+- `backend/app/tests/test_wall_type_background_extraction.py`
+- `backend/app/tests/test_wall_type_extraction_codes.py`
+- `backend/app/view_mapping/__init__.py`
+- `backend/app/view_mapping/mapping_geometry.py`
+- `backend/app/view_mapping/view_mapping_schemas.py`
+- `backend/app/view_mapping/view_mapping_service.py`
+- `backend/app/wall_measurement/__init__.py`
+- `backend/app/wall_measurement/nrm2_wall_rules.py`
+- `backend/app/wall_measurement/wall_area_drawing_service.py`
+- `backend/app/wall_measurement/wall_area_label_service.py`
+- `backend/app/wall_measurement/wall_area_matching_service.py`
+- `backend/app/wall_measurement/wall_area_opening_deduction_service.py`
+- `backend/app/wall_measurement/wall_area_polygon_service.py`
+- `backend/app/wall_measurement/wall_area_scale_service.py`
+- `backend/app/wall_measurement/wall_boq_adapter.py`
+- `backend/app/wall_measurement/wall_box_builder.py`
+- `backend/app/wall_measurement/wall_calculation_service.py`
+- `backend/app/wall_measurement/wall_centerline_service.py`
+- `backend/app/wall_measurement/wall_detection_import_service.py`
+- `backend/app/wall_measurement/wall_fast_update_service.py`
+- `backend/app/wall_measurement/wall_geometry_service.py`
+- `backend/app/wall_measurement/wall_grouping_service.py`
+- `backend/app/wall_measurement/wall_height_alignment_geometry.py`
+- `backend/app/wall_measurement/wall_height_alignment_service.py`
+- `backend/app/wall_measurement/wall_height_mapping_service.py`
+- `backend/app/wall_measurement/wall_height_reference_alignment_service.py`
+- `backend/app/wall_measurement/wall_height_reference_geometry.py`
+- `backend/app/wall_measurement/wall_height_source_matcher.py`
+- `backend/app/wall_measurement/wall_height_source_scanner.py`
+- `backend/app/wall_measurement/wall_height_source_service.py`
+- `backend/app/wall_measurement/wall_height_zone_service.py`
+- `backend/app/wall_measurement/wall_location_sync_service.py`
+- `backend/app/wall_measurement/wall_measurement_repository.py`
+- `backend/app/wall_measurement/wall_measurement_schemas.py`
+- `backend/app/wall_measurement/wall_measurement_service.py`
+- `backend/app/wall_measurement/wall_opening_link_service.py`
+- `backend/app/wall_measurement/wall_overlay_service.py`
+- `backend/app/wall_measurement/wall_pattern_crop_service.py`
+- `backend/app/wall_measurement/wall_plan_import_service.py`
+- `backend/app/wall_measurement/wall_plan_preview_service.py`
+- `backend/app/wall_measurement/wall_review_sync_service.py`
+- `backend/app/wall_measurement/wall_snap_service.py`
+- `backend/app/wall_measurement/wall_source_filter.py`
+- `backend/app/wall_measurement/wall_source_scanner.py`
+- `backend/app/wall_measurement/wall_type_extraction_service.py`
+- `backend/app/wall_measurement/wall_type_library_service.py`
+- `backend/app/wall_measurement/wall_type_matcher.py`
+- `backend/app/wall_measurement/wall_type_suggestion_service.py`
+- `backend/app/wall_takeoff/__init__.py`
+- `backend/app/wall_takeoff/nrm2_masonry_rules.py`
+- `backend/app/wall_takeoff/wall_centerline_service.py`
+- `backend/app/wall_takeoff/wall_geometry_utils.py`
+- `backend/app/wall_takeoff/wall_grouping_service.py`
+- `backend/app/wall_takeoff/wall_opening_assignment_service.py`
+- `backend/app/wall_takeoff/wall_run_builder.py`
+- `backend/app/wall_takeoff/wall_spec_resolver.py`
+- `backend/app/wall_takeoff/wall_takeoff_repository.py`
+- `backend/app/wall_takeoff/wall_takeoff_schemas.py`
+- `backend/app/wall_takeoff/wall_takeoff_service.py`
+- `backend/app/wall_takeoff/wall_type_library_service.py`
+- `backend/app/wall_takeoff/wall_type_matcher.py`
+- `backend/app/wall_takeoff/wall_void_deduction_service.py`
+- `docs/api-reference.md`
+- `docs/architecture.md`
+- `docs/boq-api-contract.md`
+- `docs/boq-feature-reference.md`
+- `docs/boq-integration-plan.md`
+- `docs/crop-coordinate-system.md`
+- `docs/deployment.md`
+- `docs/export-package-format.md`
+- `docs/guided-workflow.md`
+- `docs/model-integration-roadmap.md`
+- `docs/pdf-processing.md`
+- `docs/ronath-feature-map.md`
+- `frontend/app/admin/template-packages/page.tsx`
+- `frontend/app/boq-generation/acc/page.tsx`
+- `frontend/app/boq-generation/costx/page.tsx`
+- `frontend/app/boq-generation/import/page.tsx`
+- `frontend/app/boq-generation/page.tsx`
+- `frontend/app/boq-generation/report/[takeoffId]/page.tsx`
+- `frontend/app/boq-generation/revit/page.tsx`
+- `frontend/app/boq-generation/saved/page.tsx`
+- `frontend/app/exported-files/page.tsx`
+- `frontend/app/organization/exports/page.tsx`
+- `frontend/app/organization/template-packages/page.tsx`
+- `frontend/app/template-packages/[packageId]/page.tsx`
+- `frontend/app/template-packages/new/page.tsx`
+- `frontend/app/template-packages/page.tsx`
+- `frontend/app/workspace/[projectId]/analysis/page.tsx`
+- `frontend/app/workspace/[projectId]/boq/autodesk/page.tsx`
+- `frontend/app/workspace/[projectId]/boq/descriptions/page.tsx`
+- `frontend/app/workspace/[projectId]/boq/export/page.tsx`
+- `frontend/app/workspace/[projectId]/boq/page.tsx`
+- `frontend/app/workspace/[projectId]/boq/settings/page.tsx`
+- `frontend/app/workspace/[projectId]/boq/setup/page.tsx`
+- `frontend/app/workspace/[projectId]/boq/templates/page.tsx`
+- `frontend/app/workspace/[projectId]/elements/page.tsx`
+- `frontend/app/workspace/[projectId]/elevation-crops/page.tsx`
+- `frontend/app/workspace/[projectId]/export/page.tsx`
+- `frontend/app/workspace/[projectId]/floor-areas/page.tsx`
+- `frontend/app/workspace/[projectId]/mapping/page.tsx`
+- `frontend/app/workspace/[projectId]/plan-elements/page.tsx`
+- `frontend/app/workspace/[projectId]/review/page.tsx`
+- `frontend/app/workspace/[projectId]/scale/page.tsx`
+- `frontend/app/workspace/[projectId]/schedules/page.tsx`
+- `frontend/app/workspace/[projectId]/settings/page.tsx`
+- `frontend/app/workspace/[projectId]/setup/page.tsx`
+- `frontend/app/workspace/[projectId]/specifications/page.tsx`
+- `frontend/app/workspace/[projectId]/templates/page.tsx`
+- `frontend/app/workspace/[projectId]/type-groups/page.tsx`
+- `frontend/app/workspace/[projectId]/walls/page.tsx`
+- `frontend/features/analysis/components/AnalysisPage.tsx`
+- `frontend/features/analysis/services/analysisApi.ts`
+- `frontend/features/analysis/types/analysisTypes.ts`
+- `frontend/features/boq-generation/components/AccImportPage.tsx`
+- `frontend/features/boq-generation/components/AccTakeoffPage.tsx`
+- `frontend/features/boq-generation/components/BoqGenerationPage.tsx`
+- `frontend/features/boq-generation/components/CostXImportPage.tsx`
+- `frontend/features/boq-generation/components/ExternalImportPage.tsx`
+- `frontend/features/boq-generation/components/ExternalJsonImportPage.tsx`
+- `frontend/features/boq-generation/components/FieldMappingPanel.tsx`
+- `frontend/features/boq-generation/components/ImportPreviewTable.tsx`
+- `frontend/features/boq-generation/components/RevitImportPage.tsx`
+- `frontend/features/boq-generation/components/SavedTakeoffsPage.tsx`
+- `frontend/features/boq-generation/components/SourceBoqReportPage.tsx`
+- `frontend/features/boq-generation/components/SourceImportPage.tsx`
+- `frontend/features/boq-generation/components/ValidationIssuesPanel.tsx`
+- `frontend/features/boq-generation/components/sourceImportUtils.ts`
+- `frontend/features/boq-generation/services/importBoqApi.ts`
+- `frontend/features/boq-generation/types/boqGenerationTypes.ts`
+- `frontend/features/boq-settings/components/BoqPriorityOrderEditor.tsx`
+- `frontend/features/boq-settings/components/ProjectBoqSettingsPage.tsx`
+- `frontend/features/boq-settings/services/boqSettingsService.ts`
+- `frontend/features/boq-settings/types/boqSettingsTypes.ts`
+- `frontend/features/boq/components/BoqDashboard.tsx`
+- `frontend/features/boq/components/BoqReportSettingsPage.tsx`
+- `frontend/features/boq/components/BoqSetupPage.tsx`
+- `frontend/features/boq/services/boqApi.ts`
+- `frontend/features/boq/services/boqSetupApi.ts`
+- `frontend/features/boq/types/boqSetupTypes.ts`
+- `frontend/features/boq/types/boqTypes.ts`
+- `frontend/features/canonical-takeoff/services/canonicalTakeoffService.ts`
+- `frontend/features/canonical-takeoff/types/canonicalTakeoffTypes.ts`
+- `frontend/features/crop-list/components/CropListItem.tsx`
+- `frontend/features/crop-list/components/CropListPanel.tsx`
+- `frontend/features/crop-list/components/CropTypeSelector.tsx`
+- `frontend/features/crop-list/constants/cropTypes.ts`
+- `frontend/features/crop-preview/components/CropPreviewCard.tsx`
+- `frontend/features/crop-preview/components/CropPreviewPanel.tsx`
+- `frontend/features/crop-preview/components/CropQualityStatus.tsx`
+- `frontend/features/crop-preview/services/cropPreviewService.ts`
+- `frontend/features/crop/components/CropViewsPage.tsx`
+- `frontend/features/crop/services/cropApi.ts`
+- `frontend/features/crop/types/cropTypes.ts`
+- `frontend/features/dashboard/components/DashboardPage.tsx`
+- `frontend/features/detection-overlay/components/DetectionBox.tsx`
+- `frontend/features/detection-overlay/components/DetectionLabel.tsx`
+- `frontend/features/detection-overlay/components/DetectionOverlay.tsx`
+- `frontend/features/detection-overlay/types/detectionOverlayTypes.ts`
+- `frontend/features/detection-review/components/DetectionEditor.tsx`
+- `frontend/features/detection-review/components/DetectionReviewList.tsx`
+- `frontend/features/detection-review/components/DetectionReviewPanel.tsx`
+- `frontend/features/detection-review/services/detectionReviewService.ts`
+- `frontend/features/detection-review/services/modelAnalysisService.ts`
+- `frontend/features/drawing-setup/components/DrawingSetupPage.tsx`
+- `frontend/features/drawing-setup/services/drawingSetupService.ts`
+- `frontend/features/element-details/components/ElementDetailsPage.tsx`
+- `frontend/features/element-details/components/ElementTypeGroupsPage.tsx`
+- `frontend/features/element-details/services/elementDetailsApi.ts`
+- `frontend/features/element-details/services/elementDetailsService.ts`
+- `frontend/features/element-details/types/elementDetailsTypes.ts`
+- `frontend/features/element-types/components/TypeLibraryModal.tsx`
+- `frontend/features/element-types/services/elementTypeService.ts`
+- `frontend/features/elevation-crops/components/ElevationCropsPage.tsx`
+- `frontend/features/export-panel/components/ExportButton.tsx`
+- `frontend/features/export-panel/components/ExportOptions.tsx`
+- `frontend/features/export-panel/components/ExportPanel.tsx`
+- `frontend/features/export-panel/services/exportService.ts`
+- `frontend/features/exterior-boundary/components/BoundaryEditorOverlay.tsx`
+- `frontend/features/exterior-boundary/services/exteriorBoundaryService.ts`
+- `frontend/features/exterior-boundary/types/exteriorBoundaryTypes.ts`
+- `frontend/features/floor-areas/components/FloorAreaCanvas.tsx`
+- `frontend/features/floor-areas/components/FloorAreaDetailsPanel.tsx`
+- `frontend/features/floor-areas/components/FloorAreaEmptyState.tsx`
+- `frontend/features/floor-areas/components/FloorAreaManualEditor.tsx`
+- `frontend/features/floor-areas/components/FloorAreaPlanPreview.tsx`
+- `frontend/features/floor-areas/components/FloorAreaReviewTable.tsx`
+- `frontend/features/floor-areas/components/FloorAreaSourceCompare.tsx`
+- `frontend/features/floor-areas/components/FloorAreaSummaryCards.tsx`
+- `frontend/features/floor-areas/components/FloorAreaTable.tsx`
+- `frontend/features/floor-areas/components/FloorAreaToolbar.tsx`
+- `frontend/features/floor-areas/components/FloorAreaValidationMessage.tsx`
+- `frontend/features/floor-areas/components/FloorAreasPage.tsx`
+- `frontend/features/floor-areas/components/FloorPlanPreview.tsx`
+- `frontend/features/floor-areas/components/FloorZoneOverlay.tsx`
+- `frontend/features/floor-areas/components/ManualFloorPolygonTool.tsx`
+- `frontend/features/floor-areas/components/SelectedFloorAreaPanel.tsx`
+- `frontend/features/floor-areas/hooks/useFloorAreaEditor.ts`
+- `frontend/features/floor-areas/services/floorAreaApi.ts`
+- `frontend/features/floor-areas/services/floorAreasApi.ts`
+- `frontend/features/floor-areas/types/floorAreaTypes.ts`
+- `frontend/features/floor-areas/types/floorAreasTypes.ts`
+- `frontend/features/floor-takeoff/components/FloorAreaSourceCompare.tsx`
+- `frontend/features/floor-takeoff/components/FloorTakeoffPanel.tsx`
+- `frontend/features/floor-takeoff/components/FloorZoneReviewTable.tsx`
+- `frontend/features/floor-takeoff/services/floorTakeoffApi.ts`
+- `frontend/features/floor-takeoff/types/floorTakeoffTypes.ts`
+- `frontend/features/model-analysis/components/ModelAnalysisPage.tsx`
+- `frontend/features/page-thumbnails/components/PageThumbnailCard.tsx`
+- `frontend/features/page-thumbnails/components/PageThumbnailList.tsx`
+- `frontend/features/page-thumbnails/services/thumbnailService.ts`
+- `frontend/features/pdf-viewer/components/PageNavigation.tsx`
+- `frontend/features/pdf-viewer/components/PdfPageCanvas.tsx`
+- `frontend/features/pdf-viewer/components/PdfViewer.tsx`
+- `frontend/features/pdf-viewer/components/ZoomControls.tsx`
+- `frontend/features/pdf-viewer/hooks/usePdfDocument.ts`
+- `frontend/features/pdf-viewer/hooks/usePdfViewport.ts`
+- `frontend/features/pdf-viewer/services/pdfViewerService.ts`
+- `frontend/features/plan-elements/components/PlanElementsPage.tsx`
+- `frontend/features/plan-elements/components/SelectedElementCropPreview.tsx`
+- `frontend/features/plan-elements/components/WallDeductionSummaryCard.tsx`
+- `frontend/features/project-flow/components/AutoAnalyzePage.tsx`
+- `frontend/features/project-state/stores/cropStore.ts`
+- `frontend/features/project-state/stores/projectStore.ts`
+- `frontend/features/project-state/stores/selectionStore.ts`
+- `frontend/features/project-state/stores/viewerStore.ts`
+- `frontend/features/project-state/types/projectStateTypes.ts`
+- `frontend/features/scale-calibration/components/ScaleCalibrationPage.tsx`
+- `frontend/features/scale-calibration/services/scaleCalibrationService.ts`
+- `frontend/features/schedules/components/DoorWindowSchedulePage.tsx`
+- `frontend/features/schedules/services/scheduleApi.ts`
+- `frontend/features/schedules/types/scheduleTypes.ts`
+- `frontend/features/selection-tools/components/FreehandSelectionTool.tsx`
+- `frontend/features/selection-tools/components/PolygonSelectionTool.tsx`
+- `frontend/features/selection-tools/components/RectangleSelectionTool.tsx`
+- `frontend/features/selection-tools/components/SelectionHandles.tsx`
+- `frontend/features/selection-tools/components/SelectionOverlay.tsx`
+- `frontend/features/selection-tools/components/SelectionToolbar.tsx`
+- `frontend/features/selection-tools/hooks/useNormalizedCoordinates.ts`
+- `frontend/features/selection-tools/hooks/useSelectionDrawing.ts`
+- `frontend/features/selection-tools/hooks/useSelectionEditing.ts`
+- `frontend/features/selection-tools/services/selectionConverter.ts`
+- `frontend/features/selection-tools/services/selectionValidator.ts`
+- `frontend/features/selection-tools/types/selectionTypes.ts`
+- `frontend/features/specifications/components/DocumentStatusSidebar.tsx`
+- `frontend/features/specifications/components/DocumentUploadCard.tsx`
+- `frontend/features/specifications/components/SpecificationExtractionPanel.tsx`
+- `frontend/features/specifications/components/SpecificationSourceModal.tsx`
+- `frontend/features/specifications/components/SpecificationStepCard.tsx`
+- `frontend/features/specifications/components/SpecificationStepHeader.tsx`
+- `frontend/features/specifications/components/SpecificationSummaryRow.tsx`
+- `frontend/features/specifications/components/SpecificationsPage.tsx`
+- `frontend/features/specifications/services/specificationApi.ts`
+- `frontend/features/specifications/services/specificationService.ts`
+- `frontend/features/specifications/types/specificationTypes.ts`
+- `frontend/features/template-packages/components/BranchOutputEditor.tsx`
+- `frontend/features/template-packages/components/ConditionRow.tsx`
+- `frontend/features/template-packages/components/ConditionalRuleBuilder.tsx`
+- `frontend/features/template-packages/components/FormulaBuilder.tsx`
+- `frontend/features/template-packages/components/ProjectTemplateSetPage.tsx`
+- `frontend/features/template-packages/components/TemplatePackageEditorPage.tsx`
+- `frontend/features/template-packages/components/TemplatePackageListPage.tsx`
+- `frontend/features/template-packages/services/templatePackageService.ts`
+- `frontend/features/template-packages/types/templatePackageTypes.ts`
+- `frontend/features/upload/components/PdfUploadBox.tsx`
+- `frontend/features/upload/components/UploadProgress.tsx`
+- `frontend/features/upload/services/uploadService.ts`
+- `frontend/features/upload/types/uploadTypes.ts`
+- `frontend/features/view-mapping/components/DualMappingCanvas.tsx`
+- `frontend/features/view-mapping/components/ImageMappingCanvas.tsx`
+- `frontend/features/view-mapping/components/MappingCanvasToolbar.tsx`
+- `frontend/features/view-mapping/components/MappingSideSelector.tsx`
+- `frontend/features/view-mapping/components/MappingStatusPanel.tsx`
+- `frontend/features/view-mapping/components/MappingWorkbench.tsx`
+- `frontend/features/view-mapping/services/viewMappingGeometry.ts`
+- `frontend/features/view-mapping/services/viewMappingService.ts`
+- `frontend/features/view-mapping/types/viewMappingTypes.ts`
+- `frontend/features/wall-results/components/WallResultsPage.tsx`
+- `frontend/features/wall-results/services/wallResultsApi.ts`
+- `frontend/features/wall-results/types/wallResultsTypes.ts`
+- `frontend/features/wall-takeoff/components/WallDeductionSummary.tsx`
+- `frontend/features/wall-takeoff/components/WallTakeoffPanel.tsx`
+- `frontend/features/wall-takeoff/components/WallTypeSelector.tsx`
+- `frontend/features/wall-takeoff/services/wallTakeoffApi.ts`
+- `frontend/features/wall-takeoff/types/wallTakeoffTypes.ts`
+- `frontend/features/walls/components/ApplyWallThicknessModal.tsx`
+- `frontend/features/walls/components/ElevationSectionOverlayCanvas.tsx`
+- `frontend/features/walls/components/HeightAlignmentControls.tsx`
+- `frontend/features/walls/components/HeightApplyPanel.tsx`
+- `frontend/features/walls/components/HeightDrawingToolbar.tsx`
+- `frontend/features/walls/components/HeightMappingPanel.tsx`
+- `frontend/features/walls/components/HeightOverlayCanvas.tsx`
+- `frontend/features/walls/components/HeightReferenceAlignModal.tsx`
+- `frontend/features/walls/components/HeightReferenceAlignmentPanel.tsx`
+- `frontend/features/walls/components/HeightReferenceImagePanel.tsx`
+- `frontend/features/walls/components/HeightReferencePointCanvasLayer.tsx`
+- `frontend/features/walls/components/HeightReferencePointList.tsx`
+- `frontend/features/walls/components/HeightReferencePointTool.tsx`
+- `frontend/features/walls/components/HeightReferenceToolbar.tsx`
+- `frontend/features/walls/components/HeightSourceCropModal.tsx`
+- `frontend/features/walls/components/HeightSourceSelector.tsx`
+- `frontend/features/walls/components/HeightSourcesPanel.tsx`
+- `frontend/features/walls/components/HeightZoneEditor.tsx`
+- `frontend/features/walls/components/HeightZoneTable.tsx`
+- `frontend/features/walls/components/OverlayControls.tsx`
+- `frontend/features/walls/components/PlanWallsPanel.tsx`
+- `frontend/features/walls/components/WallAreaApplyPanel.tsx`
+- `frontend/features/walls/components/WallAreaDrawingCanvas.tsx`
+- `frontend/features/walls/components/WallAreaDrawingPanel.tsx`
+- `frontend/features/walls/components/WallAreaDrawingToolbar.tsx`
+- `frontend/features/walls/components/WallAreaMappingPanel.tsx`
+- `frontend/features/walls/components/WallAreaMatchCard.tsx`
+- `frontend/features/walls/components/WallAreaModeToggle.tsx`
+- `frontend/features/walls/components/WallAreaPolygonEditor.tsx`
+- `frontend/features/walls/components/WallAreaPolygonList.tsx`
+- `frontend/features/walls/components/WallAreaReviewCard.tsx`
+- `frontend/features/walls/components/WallAreaSimpleForm.tsx`
+- `frontend/features/walls/components/WallBoqSummaryPanel.tsx`
+- `frontend/features/walls/components/WallCenterlineOverlay.tsx`
+- `frontend/features/walls/components/WallDrawingToolbar.tsx`
+- `frontend/features/walls/components/WallOpeningDeductionPanel.tsx`
+- `frontend/features/walls/components/WallPageTabs.tsx`
+- `frontend/features/walls/components/WallPatternPreview.tsx`
+- `frontend/features/walls/components/WallPlanCanvas.tsx`
+- `frontend/features/walls/components/WallPlanPreviewPanel.tsx`
+- `frontend/features/walls/components/WallReviewPanel.tsx`
+- `frontend/features/walls/components/WallReviewTable.tsx`
+- `frontend/features/walls/components/WallSegmentDetailsPanel.tsx`
+- `frontend/features/walls/components/WallSegmentList.tsx`
+- `frontend/features/walls/components/WallStatusBar.tsx`
+- `frontend/features/walls/components/WallTypeEditor.tsx`
+- `frontend/features/walls/components/WallTypeTable.tsx`
+- `frontend/features/walls/components/WallTypesPanel.tsx`
+- `frontend/features/walls/components/WallWorkflowGuide.tsx`
+- `frontend/features/walls/components/WallsPage.tsx`
+- `frontend/features/walls/hooks/useWallHeightMapping.ts`
+- `frontend/features/walls/hooks/useWallMeasurement.ts`
+- `frontend/features/walls/hooks/useWallPlanEditor.ts`
+- `frontend/features/walls/services/wallMeasurementApi.ts`
+- `frontend/features/walls/types/wallMeasurementTypes.ts`
+- `frontend/features/walls/utils/heightAlignmentUtils.ts`
+- `frontend/features/walls/utils/heightDrawingUtils.ts`
+- `frontend/features/walls/utils/heightOverlayUtils.ts`
+- `frontend/features/walls/utils/heightReferenceAlignmentUtils.ts`
+- `frontend/features/walls/utils/heightReferencePointUtils.ts`
+- `frontend/features/walls/utils/wallAreaDrawingUtils.ts`
+- `frontend/features/walls/utils/wallAreaGeometryUtils.ts`
+- `frontend/features/walls/utils/wallAreaMatchingUtils.ts`
+- `frontend/features/walls/utils/wallAreaScaleUtils.ts`
+- `frontend/features/walls/utils/wallBoqSummaryUtils.ts`
+- `frontend/features/walls/utils/wallCanvasUtils.ts`
+- `frontend/features/walls/utils/wallGeometry.ts`
+- `frontend/features/walls/utils/wallMeasurementUtils.ts`
+- `frontend/features/walls/utils/wallPlanPreviewUtils.ts`
+- `frontend/features/workflow/components/WorkflowNav.tsx`
+- `frontend/features/workflow/components/WorkflowPageShell.tsx`
+- `frontend/features/workflow/components/WorkspaceQuickLinks.tsx`
+- `frontend/features/workspace/components/CropEditorModal.tsx`
+- `frontend/features/workspace/components/CropViewCard.tsx`
+- `frontend/features/workspace/components/CropViewsDashboard.tsx`
+- `frontend/features/workspace/components/WorkspaceHeader.tsx`
+- `frontend/features/workspace/components/WorkspaceLayout.tsx`
+- `frontend/features/workspace/components/WorkspaceSidebar.tsx`
+- `frontend/features/workspace/hooks/useWorkspaceLoader.ts`
+- `frontend/features/workspace/services/workspaceApi.ts`
+- `frontend/features/workspace/types/workspaceTypes.ts`
+- `frontend/shared/components/InlineStatusBadge.tsx`
+- `frontend/shared/crop-types.json`
+- `frontend/shared/hooks/useJobPolling.ts`
+- `frontend/shared/hooks/useProjectStatus.ts`
+- `frontend/shared/services/fileDownloadService.ts`
+- `shared/README.md`
+- `shared/api-contracts/crop.schema.json`
+- `shared/api-contracts/detection.schema.json`
+- `shared/api-contracts/drawing-setup.schema.json`
+- `shared/api-contracts/export.schema.json`
+- `shared/api-contracts/floor-takeoff.schema.json`
+- `shared/api-contracts/project.schema.json`
+- `shared/api-contracts/scale-calibration.schema.json`
+- `shared/api-contracts/wall-measurement.schema.json`
+- `shared/boq/boq-report.schema.json`
+- `shared/boq/boq-template.schema.json`
+- `shared/boq/default-floor-templates.json`
+- `shared/boq/nrm-mapping.json`
+- `shared/boq/placeholder-definitions.json`
+- `shared/boq/praveen-takeoff-json.schema.json`
+- `shared/boq/reviewed-takeoff-json.schema.json`
+- `shared/boq/wall-measurement-boq.schema.json`
+- `shared/crop-types.json`
+- `shared/detection-classes.json`
+
+## Removed frontend routes
+
+- `/admin/template-packages`
+- `/boq-generation`
+- `/boq-generation/acc`
+- `/boq-generation/costx`
+- `/boq-generation/import`
+- `/boq-generation/report/[takeoffId]`
+- `/boq-generation/revit`
+- `/boq-generation/saved`
+- `/exported-files`
+- `/organization/exports`
+- `/organization/template-packages`
+- `/template-packages`
+- `/template-packages/[packageId]`
+- `/template-packages/new`
+- `/workspace/[projectId]/analysis`
+- `/workspace/[projectId]/boq`
+- `/workspace/[projectId]/boq/autodesk`
+- `/workspace/[projectId]/boq/descriptions`
+- `/workspace/[projectId]/boq/export`
+- `/workspace/[projectId]/boq/settings`
+- `/workspace/[projectId]/boq/setup`
+- `/workspace/[projectId]/boq/templates`
+- `/workspace/[projectId]/elements`
+- `/workspace/[projectId]/elevation-crops`
+- `/workspace/[projectId]/export`
+- `/workspace/[projectId]/floor-areas`
+- `/workspace/[projectId]/mapping`
+- `/workspace/[projectId]/plan-elements`
+- `/workspace/[projectId]/review`
+- `/workspace/[projectId]/scale`
+- `/workspace/[projectId]/schedules`
+- `/workspace/[projectId]/settings`
+- `/workspace/[projectId]/setup`
+- `/workspace/[projectId]/specifications`
+- `/workspace/[projectId]/templates`
+- `/workspace/[projectId]/type-groups`
+- `/workspace/[projectId]/walls`
+
+## Removed backend APIs
+
+- `DELETE /api/v1/crops/{crop_id}`
+- `DELETE /api/v1/projects/{project_id}/boq/descriptions/custom/{item_key}`
+- `DELETE /api/v1/projects/{project_id}/boq/templates/categories/{category_id}`
+- `DELETE /api/v1/projects/{project_id}/boq/templates/{template_id}`
+- `DELETE /api/v1/projects/{project_id}/crops/{crop_id}/detections/{detection_id}`
+- `DELETE /api/v1/projects/{project_id}/door-window-schedules/{schedule_id}`
+- `DELETE /api/v1/projects/{project_id}/element-types/{type_id}`
+- `DELETE /api/v1/projects/{project_id}/floor-areas/{zone_id}`
+- `DELETE /api/v1/projects/{project_id}/floor-takeoff/{floor_id}`
+- `DELETE /api/v1/projects/{project_id}/mapping/elevations/{elevation_type}`
+- `DELETE /api/v1/projects/{project_id}/supporting-documents/{document_id}`
+- `DELETE /api/v1/projects/{project_id}/walls/area-drawings/{drawing_id}`
+- `DELETE /api/v1/projects/{project_id}/walls/segments/{segment_id}`
+- `DELETE /api/v1/projects/{project_id}/walls/types/{type_id}`
+- `GET /api/v1/boq/exports/{export_id}/download`
+- `GET /api/v1/canonical-takeoffs`
+- `GET /api/v1/canonical-takeoffs/{record_id}`
+- `GET /api/v1/crops/{crop_id}`
+- `GET /api/v1/crops/{crop_id}/detections`
+- `GET /api/v1/crops/{crop_id}/image`
+- `GET /api/v1/exports/{export_id}/download`
+- `GET /api/v1/jobs/types`
+- `GET /api/v1/jobs/{job_id}`
+- `GET /api/v1/organization/boq/settings`
+- `GET /api/v1/platform/exported-files`
+- `GET /api/v1/platform/template-packages`
+- `GET /api/v1/projects/{project_id}/boq/autodesk/authorize`
+- `GET /api/v1/projects/{project_id}/boq/autodesk/callback`
+- `GET /api/v1/projects/{project_id}/boq/autodesk/hubs`
+- `GET /api/v1/projects/{project_id}/boq/autodesk/hubs/{hub_id}/projects`
+- `GET /api/v1/projects/{project_id}/boq/autodesk/package/{record_id}`
+- `GET /api/v1/projects/{project_id}/boq/autodesk/packages`
+- `GET /api/v1/projects/{project_id}/boq/autodesk/status`
+- `GET /api/v1/projects/{project_id}/boq/dashboard`
+- `GET /api/v1/projects/{project_id}/boq/descriptions/custom`
+- `GET /api/v1/projects/{project_id}/boq/descriptions/layers`
+- `GET /api/v1/projects/{project_id}/boq/google/status`
+- `GET /api/v1/projects/{project_id}/boq/reports`
+- `GET /api/v1/projects/{project_id}/boq/reports/latest`
+- `GET /api/v1/projects/{project_id}/boq/reports/{report_id}`
+- `GET /api/v1/projects/{project_id}/boq/settings`
+- `GET /api/v1/projects/{project_id}/boq/setup`
+- `GET /api/v1/projects/{project_id}/boq/source-json`
+- `GET /api/v1/projects/{project_id}/boq/templates`
+- `GET /api/v1/projects/{project_id}/canonical-takeoffs`
+- `GET /api/v1/projects/{project_id}/costx-imports/connection-status`
+- `GET /api/v1/projects/{project_id}/costx-imports/workbooks`
+- `GET /api/v1/projects/{project_id}/crops`
+- `GET /api/v1/projects/{project_id}/crops/{crop_id}/detections`
+- `GET /api/v1/projects/{project_id}/crops/{crop_id}/model-output/{output_type}`
+- `GET /api/v1/projects/{project_id}/detections/{detection_id}/plan-tags`
+- `GET /api/v1/projects/{project_id}/door-window-schedules`
+- `GET /api/v1/projects/{project_id}/drawing-setup`
+- `GET /api/v1/projects/{project_id}/element-details`
+- `GET /api/v1/projects/{project_id}/element-details/processing-status`
+- `GET /api/v1/projects/{project_id}/element-details/type-groups`
+- `GET /api/v1/projects/{project_id}/element-details/{item_id}/crop-image`
+- `GET /api/v1/projects/{project_id}/element-matches`
+- `GET /api/v1/projects/{project_id}/element-types`
+- `GET /api/v1/projects/{project_id}/exports/takeoff-json`
+- `GET /api/v1/projects/{project_id}/exterior-boundary`
+- `GET /api/v1/projects/{project_id}/floor-areas`
+- `GET /api/v1/projects/{project_id}/floor-takeoff`
+- `GET /api/v1/projects/{project_id}/jobs`
+- `GET /api/v1/projects/{project_id}/mapping`
+- `GET /api/v1/projects/{project_id}/pages`
+- `GET /api/v1/projects/{project_id}/pages/{page_number}/image`
+- `GET /api/v1/projects/{project_id}/pages/{page_number}/thumbnail`
+- `GET /api/v1/projects/{project_id}/plan-tags`
+- `GET /api/v1/projects/{project_id}/scale-calibrations`
+- `GET /api/v1/projects/{project_id}/spec-extraction/latest`
+- `GET /api/v1/projects/{project_id}/spec-extraction/records`
+- `GET /api/v1/projects/{project_id}/status`
+- `GET /api/v1/projects/{project_id}/supporting-documents`
+- `GET /api/v1/projects/{project_id}/wall-takeoff`
+- `GET /api/v1/projects/{project_id}/walls`
+- `GET /api/v1/projects/{project_id}/walls/boq-summary`
+- `GET /api/v1/projects/{project_id}/walls/height-sources`
+- `GET /api/v1/supporting-documents/{document_id}/file`
+- `GET /api/v1/template-packages`
+- `GET /api/v1/template-packages/projects/{project_id}/assignment`
+- `GET /api/v1/template-packages/{package_id}`
+- `PATCH /api/v1/projects/{project_id}/door-window-schedules/{schedule_id}`
+- `PATCH /api/v1/projects/{project_id}/element-details/type-groups/{group_id}`
+- `PATCH /api/v1/projects/{project_id}/element-details/{item_id}`
+- `PATCH /api/v1/projects/{project_id}/floor-areas/{zone_id}`
+- `PATCH /api/v1/projects/{project_id}/floor-takeoff/{floor_id}`
+- `PATCH /api/v1/projects/{project_id}/wall-takeoff/{wall_id}`
+- `PATCH /api/v1/projects/{project_id}/walls/segments/{segment_id}`
+- `PATCH /api/v1/projects/{project_id}/walls/types/{type_id}`
+- `POST /api/v1/crops/{crop_id}/detections/run`
+- `POST /api/v1/platform/template-packages`
+- `POST /api/v1/projects/{project_id}/acc-imports`
+- `POST /api/v1/projects/{project_id}/acc-imports/upload`
+- `POST /api/v1/projects/{project_id}/boq/autodesk/import`
+- `POST /api/v1/projects/{project_id}/boq/generate`
+- `POST /api/v1/projects/{project_id}/boq/generate-job`
+- `POST /api/v1/projects/{project_id}/boq/reports/{report_id}/exports/{export_type}`
+- `POST /api/v1/projects/{project_id}/boq/reports/{report_id}/exports/{export_type}/job`
+- `POST /api/v1/projects/{project_id}/boq/setup/generate`
+- `POST /api/v1/projects/{project_id}/boq/templates`
+- `POST /api/v1/projects/{project_id}/boq/templates/categories`
+- `POST /api/v1/projects/{project_id}/canonical-takeoffs/import`
+- `POST /api/v1/projects/{project_id}/canonical-takeoffs/reviewed`
+- `POST /api/v1/projects/{project_id}/costx-imports`
+- `POST /api/v1/projects/{project_id}/costx-imports/api-import`
+- `POST /api/v1/projects/{project_id}/costx-imports/test-connection`
+- `POST /api/v1/projects/{project_id}/costx-imports/upload`
+- `POST /api/v1/projects/{project_id}/crops`
+- `POST /api/v1/projects/{project_id}/crops/{crop_id}/analyze`
+- `POST /api/v1/projects/{project_id}/crops/{crop_id}/analyze-job`
+- `POST /api/v1/projects/{project_id}/crops/{crop_id}/detections`
+- `POST /api/v1/projects/{project_id}/door-window-schedules`
+- `POST /api/v1/projects/{project_id}/door-window-schedules/apply-common-height`
+- `POST /api/v1/projects/{project_id}/door-window-schedules/items/{item_id}/manual-dimensions`
+- `POST /api/v1/projects/{project_id}/door-window-schedules/{schedule_id}/apply`
+- `POST /api/v1/projects/{project_id}/element-details/assign`
+- `POST /api/v1/projects/{project_id}/element-details/defaults`
+- `POST /api/v1/projects/{project_id}/element-details/elevation-crops`
+- `POST /api/v1/projects/{project_id}/element-details/elevation-crops/generate`
+- `POST /api/v1/projects/{project_id}/element-details/elevation-crops/refine-all`
+- `POST /api/v1/projects/{project_id}/element-details/elevation-crops/{item_id}/manual-box`
+- `POST /api/v1/projects/{project_id}/element-details/elevation-crops/{item_id}/refine`
+- `POST /api/v1/projects/{project_id}/element-details/force-reprocess`
+- `POST /api/v1/projects/{project_id}/element-details/prepare-final-data`
+- `POST /api/v1/projects/{project_id}/element-details/prepare-final-data/job`
+- `POST /api/v1/projects/{project_id}/element-details/refine`
+- `POST /api/v1/projects/{project_id}/element-details/start-processing`
+- `POST /api/v1/projects/{project_id}/element-details/structured`
+- `POST /api/v1/projects/{project_id}/element-details/type-groups`
+- `POST /api/v1/projects/{project_id}/element-details/type-groups/auto`
+- `POST /api/v1/projects/{project_id}/element-details/type-groups/{group_id}/assign-items`
+- `POST /api/v1/projects/{project_id}/element-details/wall-height`
+- `POST /api/v1/projects/{project_id}/element-details/{item_id}/manual-crop`
+- `POST /api/v1/projects/{project_id}/element-details/{item_id}/refine`
+- `POST /api/v1/projects/{project_id}/element-matches/run`
+- `POST /api/v1/projects/{project_id}/element-types`
+- `POST /api/v1/projects/{project_id}/exports/combined-pdf`
+- `POST /api/v1/projects/{project_id}/exports/metadata`
+- `POST /api/v1/projects/{project_id}/exports/model-package`
+- `POST /api/v1/projects/{project_id}/exports/zip`
+- `POST /api/v1/projects/{project_id}/exterior-boundary/generate`
+- `POST /api/v1/projects/{project_id}/external-imports`
+- `POST /api/v1/projects/{project_id}/external-imports/upload`
+- `POST /api/v1/projects/{project_id}/floor-areas/manual`
+- `POST /api/v1/projects/{project_id}/floor-areas/run-takeoff`
+- `POST /api/v1/projects/{project_id}/floor-areas/{zone_id}/confirm`
+- `POST /api/v1/projects/{project_id}/floor-takeoff/generate`
+- `POST /api/v1/projects/{project_id}/floor-takeoff/generate-job`
+- `POST /api/v1/projects/{project_id}/floor-takeoff/manual-polygon`
+- `POST /api/v1/projects/{project_id}/floor-takeoff/sync-final-review`
+- `POST /api/v1/projects/{project_id}/floor-takeoff/{floor_id}/accept`
+- `POST /api/v1/projects/{project_id}/floor-takeoff/{floor_id}/recalculate`
+- `POST /api/v1/projects/{project_id}/floor-takeoff/{floor_id}/reject`
+- `POST /api/v1/projects/{project_id}/pages/{page_number}/render`
+- `POST /api/v1/projects/{project_id}/plan-tags/run`
+- `POST /api/v1/projects/{project_id}/revit-imports`
+- `POST /api/v1/projects/{project_id}/revit-imports/cloud-import`
+- `POST /api/v1/projects/{project_id}/revit-imports/upload`
+- `POST /api/v1/projects/{project_id}/schedules/extract-job`
+- `POST /api/v1/projects/{project_id}/spec-extraction/run`
+- `POST /api/v1/projects/{project_id}/status/refresh`
+- `POST /api/v1/projects/{project_id}/supporting-documents/crop`
+- `POST /api/v1/projects/{project_id}/supporting-documents/upload`
+- `POST /api/v1/projects/{project_id}/supporting-documents/{document_type}/skip`
+- `POST /api/v1/projects/{project_id}/wall-takeoff/generate`
+- `POST /api/v1/projects/{project_id}/wall-takeoff/generate-job`
+- `POST /api/v1/projects/{project_id}/wall-takeoff/{wall_id}/recalculate`
+- `POST /api/v1/projects/{project_id}/walls/apply-height`
+- `POST /api/v1/projects/{project_id}/walls/apply-thickness`
+- `POST /api/v1/projects/{project_id}/walls/area-drawings`
+- `POST /api/v1/projects/{project_id}/walls/area-drawings/apply`
+- `POST /api/v1/projects/{project_id}/walls/area-drawings/suggest-match`
+- `POST /api/v1/projects/{project_id}/walls/assign-height-zone`
+- `POST /api/v1/projects/{project_id}/walls/calculate`
+- `POST /api/v1/projects/{project_id}/walls/calculate-job`
+- `POST /api/v1/projects/{project_id}/walls/extract-types`
+- `POST /api/v1/projects/{project_id}/walls/extract-types-job`
+- `POST /api/v1/projects/{project_id}/walls/height-align-job`
+- `POST /api/v1/projects/{project_id}/walls/height-reference-align-job`
+- `POST /api/v1/projects/{project_id}/walls/height-sources-job`
+- `POST /api/v1/projects/{project_id}/walls/height-sources/auto-align`
+- `POST /api/v1/projects/{project_id}/walls/height-sources/crop`
+- `POST /api/v1/projects/{project_id}/walls/height-sources/reference-align`
+- `POST /api/v1/projects/{project_id}/walls/height-sources/selection`
+- `POST /api/v1/projects/{project_id}/walls/height-sources/suggest`
+- `POST /api/v1/projects/{project_id}/walls/height-zones`
+- `POST /api/v1/projects/{project_id}/walls/link-openings`
+- `POST /api/v1/projects/{project_id}/walls/link-openings-job`
+- `POST /api/v1/projects/{project_id}/walls/overlay-mapping`
+- `POST /api/v1/projects/{project_id}/walls/prepare`
+- `POST /api/v1/projects/{project_id}/walls/prepare-job`
+- `POST /api/v1/projects/{project_id}/walls/segments`
+- `POST /api/v1/projects/{project_id}/walls/sync-final-review`
+- `POST /api/v1/projects/{project_id}/walls/sync-final-review-job`
+- `POST /api/v1/projects/{project_id}/walls/sync-locations`
+- `POST /api/v1/projects/{project_id}/walls/sync-locations-job`
+- `POST /api/v1/projects/{project_id}/walls/types`
+- `POST /api/v1/template-packages`
+- `POST /api/v1/template-packages/organizations/{organization_id}/assignment`
+- `POST /api/v1/template-packages/projects/{project_id}/assignment`
+- `PUT /api/v1/crops/{crop_id}`
+- `PUT /api/v1/organization/boq/settings`
+- `PUT /api/v1/projects/{project_id}/boq/descriptions/custom`
+- `PUT /api/v1/projects/{project_id}/boq/settings`
+- `PUT /api/v1/projects/{project_id}/boq/setup`
+- `PUT /api/v1/projects/{project_id}/boq/templates/{template_id}`
+- `PUT /api/v1/projects/{project_id}/crops/{crop_id}/detections/{detection_id}`
+- `PUT /api/v1/projects/{project_id}/detections/{detection_id}/plan-tags`
+- `PUT /api/v1/projects/{project_id}/drawing-setup`
+- `PUT /api/v1/projects/{project_id}/element-matches/{match_id}/confirm`
+- `PUT /api/v1/projects/{project_id}/element-matches/{match_id}/reject`
+- `PUT /api/v1/projects/{project_id}/element-types/{type_id}`
+- `PUT /api/v1/projects/{project_id}/exterior-boundary`
+- `PUT /api/v1/projects/{project_id}/mapping/elevations/{elevation_type}`
+- `PUT /api/v1/projects/{project_id}/mapping/walls`
+- `PUT /api/v1/projects/{project_id}/scale-calibrations`
+- `PUT /api/v1/projects/{project_id}/walls/segments/{segment_id}/openings`
+- `PUT /api/v1/template-packages/{package_id}`
+
+## Removed database tables
+
+- `boq_custom_descriptions`
+- `boq_document_setups`
+- `boq_external_tokens`
+- `boq_poller_jobs`
+- `boq_report_items`
+- `boq_reports`
+- `boq_template_categories`
+- `boq_templates`
+- `canonical_takeoffs`
+- `crops`
+- `detections`
+- `does`
+- `door_window_schedules`
+- `drawing_setups`
+- `element_detail_records`
+- `element_detail_versions`
+- `element_details`
+- `element_processing_status`
+- `element_schedule_matches`
+- `element_type_groups`
+- `elevation_mappings`
+- `exported_files`
+- `exports`
+- `exterior_boundaries`
+- `floor_area_zones`
+- `organization_boq_settings`
+- `organization_template_assignments`
+- `pdf_pages`
+- `plan_tag_matches`
+- `project_boq_settings`
+- `project_status_cache`
+- `project_template_assignments`
+- `scale_calibrations`
+- `spec_extraction_records`
+- `structured_element_exports`
+- `supporting_documents`
+- `takeoff_elements`
+- `template_package_items`
+- `template_packages`
+- `wall_height_profiles`
+- `wall_measurement_height_zones`
+- `wall_measurement_opening_deductions`
+- `wall_measurement_overlay_mappings`
+- `wall_measurement_project_state`
+- `wall_measurement_review_items`
+- `wall_measurement_segments`
+- `wall_measurement_types`
+
+## Removed active job types
+
+- `boq_export`
+- `boq_generation`
+- `detection`
+- `final_review_preparation`
+- `floor_takeoff`
+- `pdf_rendering`
+- `specification_extraction`
+- `wall_area_calculation`
+- `wall_geometry_normalization`
+- `wall_height_alignment`
+- `wall_height_reference_alignment`
+- `wall_height_suggestion`
+- `wall_location_sync`
+- `wall_measurement_prepare`
+- `wall_opening_linking`
+- `wall_review_sync`
+- `wall_takeoff`
+- `wall_type_extraction`
+
+## Removed frontend packages
+
+- `pdfjs-dist`
+- `zustand`
+
+## Removed backend packages
+
+- `Pillow`
+- `PyMuPDF`
+- `numpy`
+- `opencv-python-headless`
+- `openpyxl`
+- `python-multipart`
+- `reportlab`
+- `shapely`
+
+## Environment and deployment changes
+
+- Removed committed `.env`, backend `.env`, Neon backup, and frontend `.env.local` files from the clean ZIP.
+- Removed AI, Roboflow, Autodesk, CostX, Google export, PDF-rendering, upload-size, and workflow polling settings from the active configuration.
+- Retained local/production mode, SQLite/PostgreSQL, Cloudflare R2, CORS, authentication, and generic worker settings.
+- Added `backend/Dockerfile`; retained frontend Dockerfile and backend/frontend Compose services; no workflow worker service is active.
+

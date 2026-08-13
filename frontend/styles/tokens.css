@@ -1,0 +1,20 @@
+:root {
+  --autoboq-font-sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --autoboq-bg: #eef3f8;
+  --autoboq-surface: #ffffff;
+  --autoboq-surface-muted: #f7f9fc;
+  --autoboq-border: #dbe3ed;
+  --autoboq-text: #172033;
+  --autoboq-text-muted: #64748b;
+  --autoboq-accent: #2563eb;
+  --autoboq-radius-sm: 0.75rem;
+  --autoboq-radius-md: 1.25rem;
+  --autoboq-radius-lg: 1.75rem;
+  --autoboq-space-1: 0.25rem;
+  --autoboq-space-2: 0.5rem;
+  --autoboq-space-3: 0.75rem;
+  --autoboq-space-4: 1rem;
+  --autoboq-space-5: 1.25rem;
+  --autoboq-space-6: 1.5rem;
+  --autoboq-shadow-panel: 0 1px 2px rgba(15, 23, 42, 0.05);
+}

@@ -1,0 +1,2501 @@
+{
+  "project_id": "demo-mattegoda",
+  "floors": [
+    {
+      "id": "demo-floor-ground",
+      "name": "Ground Floor",
+      "level_index": 0,
+      "total": 7,
+      "confirmed": 7,
+      "ready": 0,
+      "needs_review": 0
+    },
+    {
+      "id": "demo-floor-first",
+      "name": "First Floor",
+      "level_index": 1,
+      "total": 105,
+      "confirmed": 105,
+      "ready": 0,
+      "needs_review": 0
+    },
+    {
+      "id": "demo-floor-second",
+      "name": "Second Floor",
+      "level_index": 2,
+      "total": 8,
+      "confirmed": 8,
+      "ready": 0,
+      "needs_review": 0
+    },
+    {
+      "id": "demo-floor-third",
+      "name": "Third Floor",
+      "level_index": 3,
+      "total": 0,
+      "confirmed": 0,
+      "ready": 0,
+      "needs_review": 0
+    },
+    {
+      "id": "demo-floor-fourth",
+      "name": "Fourth Floor",
+      "level_index": 4,
+      "total": 0,
+      "confirmed": 0,
+      "ready": 0,
+      "needs_review": 0
+    },
+    {
+      "id": "demo-floor-fifth",
+      "name": "Fifth Floor",
+      "level_index": 5,
+      "total": 0,
+      "confirmed": 0,
+      "ready": 0,
+      "needs_review": 0
+    },
+    {
+      "id": "demo-floor-sixth",
+      "name": "Sixth Floor",
+      "level_index": 6,
+      "total": 0,
+      "confirmed": 0,
+      "ready": 0,
+      "needs_review": 0
+    },
+    {
+      "id": "demo-floor-roof-terrace",
+      "name": "Roof Terrace",
+      "level_index": 7,
+      "total": 0,
+      "confirmed": 0,
+      "ready": 0,
+      "needs_review": 0
+    },
+    {
+      "id": "demo-floor-upper-roof",
+      "name": "Upper Roof",
+      "level_index": 8,
+      "total": 0,
+      "confirmed": 0,
+      "ready": 0,
+      "needs_review": 0
+    }
+  ],
+  "counts": {
+    "all": 120,
+    "total": 120,
+    "door": 41,
+    "window": 19,
+    "wall": 40,
+    "floor": 20,
+    "confirmed": 120,
+    "ready": 0,
+    "needs_review": 0
+  },
+  "items": [
+    {
+      "id": "demo-review-0001",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-ground",
+      "entity_type": "door",
+      "entity_id": "demo-element-ground-op-543395eb24f85397",
+      "display_number": "GD-01",
+      "title": "GD-01 measurements confirmed",
+      "data": {
+        "type_code": "GD",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0002",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-ground",
+      "entity_type": "door",
+      "entity_id": "demo-element-ground-op-4baecbddfd6adb31",
+      "display_number": "D7-01",
+      "title": "D7-01 measurements confirmed",
+      "data": {
+        "type_code": "D7",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0003",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-ground",
+      "entity_type": "door",
+      "entity_id": "demo-element-ground-op-6967b488f256c192",
+      "display_number": "D7-02",
+      "title": "D7-02 measurements confirmed",
+      "data": {
+        "type_code": "D7",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0004",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "door",
+      "entity_id": "demo-element-first-op-0d7e21064c1adc43",
+      "display_number": "D2-01",
+      "title": "D2-01 measurements confirmed",
+      "data": {
+        "type_code": "D2",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0005",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "door",
+      "entity_id": "demo-element-first-op-ff86f4bdecb6a6bd",
+      "display_number": "D3-01",
+      "title": "D3-01 measurements confirmed",
+      "data": {
+        "type_code": "D3",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0006",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "door",
+      "entity_id": "demo-element-first-op-6f6cb7d1079a6e8f",
+      "display_number": "D3-02",
+      "title": "D3-02 measurements confirmed",
+      "data": {
+        "type_code": "D3",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0007",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "door",
+      "entity_id": "demo-element-first-op-dd8668d424bc6348",
+      "display_number": "D6-01",
+      "title": "D6-01 measurements confirmed",
+      "data": {
+        "type_code": "D6",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0008",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "door",
+      "entity_id": "demo-element-first-op-a1501ed10b5140fc",
+      "display_number": "D6-02",
+      "title": "D6-02 measurements confirmed",
+      "data": {
+        "type_code": "D6",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0009",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "window",
+      "entity_id": "demo-element-first-op-d201e9d73ddfdfd7",
+      "display_number": "FW2-01",
+      "title": "FW2-01 measurements confirmed",
+      "data": {
+        "type_code": "FW2",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0010",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "window",
+      "entity_id": "demo-element-first-op-7d649de47142626e",
+      "display_number": "FW1-01",
+      "title": "FW1-01 measurements confirmed",
+      "data": {
+        "type_code": "FW1",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0011",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "door",
+      "entity_id": "demo-element-first-op-fe3895ad3cbb57e8",
+      "display_number": "D2-02",
+      "title": "D2-02 measurements confirmed",
+      "data": {
+        "type_code": "D2",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0012",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "window",
+      "entity_id": "demo-element-first-op-64702326b44422d0",
+      "display_number": "LW-01",
+      "title": "LW-01 measurements confirmed",
+      "data": {
+        "type_code": "LW",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0013",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "window",
+      "entity_id": "demo-element-first-op-228ad00c63ebb733",
+      "display_number": "LW-02",
+      "title": "LW-02 measurements confirmed",
+      "data": {
+        "type_code": "LW",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0014",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "door",
+      "entity_id": "demo-element-first-op-ae4a2f251ae60ed9",
+      "display_number": "D2-03",
+      "title": "D2-03 measurements confirmed",
+      "data": {
+        "type_code": "D2",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0015",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "door",
+      "entity_id": "demo-element-first-op-c86fe56444c13ecf",
+      "display_number": "D3-03",
+      "title": "D3-03 measurements confirmed",
+      "data": {
+        "type_code": "D3",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0016",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "door",
+      "entity_id": "demo-element-first-op-c931aacb1cb83763",
+      "display_number": "D3-04",
+      "title": "D3-04 measurements confirmed",
+      "data": {
+        "type_code": "D3",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0017",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "door",
+      "entity_id": "demo-element-first-op-0495a05ed239ec49",
+      "display_number": "D6-03",
+      "title": "D6-03 measurements confirmed",
+      "data": {
+        "type_code": "D6",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0018",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "door",
+      "entity_id": "demo-element-first-op-d657feb24c16376d",
+      "display_number": "D6-04",
+      "title": "D6-04 measurements confirmed",
+      "data": {
+        "type_code": "D6",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0019",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "window",
+      "entity_id": "demo-element-first-op-55f9e01adb3e62f7",
+      "display_number": "FW1-02",
+      "title": "FW1-02 measurements confirmed",
+      "data": {
+        "type_code": "FW1",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0020",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "door",
+      "entity_id": "demo-element-first-op-67ca0b3066ab2121",
+      "display_number": "D2-04",
+      "title": "D2-04 measurements confirmed",
+      "data": {
+        "type_code": "D2",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0021",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "window",
+      "entity_id": "demo-element-first-op-9abb5a8e1c3ee62f",
+      "display_number": "LW-03",
+      "title": "LW-03 measurements confirmed",
+      "data": {
+        "type_code": "LW",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0022",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "window",
+      "entity_id": "demo-element-first-op-4b81c4996a9d4164",
+      "display_number": "LW-04",
+      "title": "LW-04 measurements confirmed",
+      "data": {
+        "type_code": "LW",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0023",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "door",
+      "entity_id": "demo-element-first-op-210cdbb71c2ebdf3",
+      "display_number": "D1-01",
+      "title": "D1-01 measurements confirmed",
+      "data": {
+        "type_code": "D1",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0024",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "door",
+      "entity_id": "demo-element-first-op-652b0a42ee3c56b2",
+      "display_number": "D2-05",
+      "title": "D2-05 measurements confirmed",
+      "data": {
+        "type_code": "D2",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0025",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "door",
+      "entity_id": "demo-element-first-op-e5bfc458df2fd0b8",
+      "display_number": "D3-05",
+      "title": "D3-05 measurements confirmed",
+      "data": {
+        "type_code": "D3",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0026",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "door",
+      "entity_id": "demo-element-first-op-d9423d4eb5a617c8",
+      "display_number": "D3-06",
+      "title": "D3-06 measurements confirmed",
+      "data": {
+        "type_code": "D3",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0027",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "door",
+      "entity_id": "demo-element-first-op-75003040da3de349",
+      "display_number": "D6-05",
+      "title": "D6-05 measurements confirmed",
+      "data": {
+        "type_code": "D6",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0028",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "door",
+      "entity_id": "demo-element-first-op-785cb3659ab98189",
+      "display_number": "D6-06",
+      "title": "D6-06 measurements confirmed",
+      "data": {
+        "type_code": "D6",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0029",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "window",
+      "entity_id": "demo-element-first-op-26ae6e7249ec2d55",
+      "display_number": "FW1-03",
+      "title": "FW1-03 measurements confirmed",
+      "data": {
+        "type_code": "FW1",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0030",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "door",
+      "entity_id": "demo-element-first-op-8b8f1428f4e911eb",
+      "display_number": "D2-06",
+      "title": "D2-06 measurements confirmed",
+      "data": {
+        "type_code": "D2",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0031",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "window",
+      "entity_id": "demo-element-first-op-896a46e5288f37dc",
+      "display_number": "LW-05",
+      "title": "LW-05 measurements confirmed",
+      "data": {
+        "type_code": "LW",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0032",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "window",
+      "entity_id": "demo-element-first-op-a7efd7c694fe365a",
+      "display_number": "LW-06",
+      "title": "LW-06 measurements confirmed",
+      "data": {
+        "type_code": "LW",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0033",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "door",
+      "entity_id": "demo-element-first-op-0c7167391e624baa",
+      "display_number": "D1-02",
+      "title": "D1-02 measurements confirmed",
+      "data": {
+        "type_code": "D1",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0034",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "door",
+      "entity_id": "demo-element-first-op-c8fa9a02058bf376",
+      "display_number": "D2-07",
+      "title": "D2-07 measurements confirmed",
+      "data": {
+        "type_code": "D2",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0035",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "door",
+      "entity_id": "demo-element-first-op-991a230ac671501c",
+      "display_number": "D3-07",
+      "title": "D3-07 measurements confirmed",
+      "data": {
+        "type_code": "D3",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0036",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "door",
+      "entity_id": "demo-element-first-op-cb311c3b12bb85e2",
+      "display_number": "D3-08",
+      "title": "D3-08 measurements confirmed",
+      "data": {
+        "type_code": "D3",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0037",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "door",
+      "entity_id": "demo-element-first-op-1795f0ed3666175c",
+      "display_number": "D6-07",
+      "title": "D6-07 measurements confirmed",
+      "data": {
+        "type_code": "D6",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0038",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "door",
+      "entity_id": "demo-element-first-op-a70d0914f84ef166",
+      "display_number": "D6-08",
+      "title": "D6-08 measurements confirmed",
+      "data": {
+        "type_code": "D6",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0039",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "window",
+      "entity_id": "demo-element-first-op-f3858f1c901a3579",
+      "display_number": "FW1-04",
+      "title": "FW1-04 measurements confirmed",
+      "data": {
+        "type_code": "FW1",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0040",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "door",
+      "entity_id": "demo-element-first-op-e427b62e7b7c5cb6",
+      "display_number": "D2-08",
+      "title": "D2-08 measurements confirmed",
+      "data": {
+        "type_code": "D2",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0041",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "window",
+      "entity_id": "demo-element-first-op-52439cb4e969848d",
+      "display_number": "LW-07",
+      "title": "LW-07 measurements confirmed",
+      "data": {
+        "type_code": "LW",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0042",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "window",
+      "entity_id": "demo-element-first-op-99b3531457b8169d",
+      "display_number": "LW-08",
+      "title": "LW-08 measurements confirmed",
+      "data": {
+        "type_code": "LW",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0043",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "window",
+      "entity_id": "demo-element-first-op-81cc14dff56d4d28",
+      "display_number": "SL1-01",
+      "title": "SL1-01 measurements confirmed",
+      "data": {
+        "type_code": "SL1",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0044",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "door",
+      "entity_id": "demo-element-first-op-42b6381fb23e10c4",
+      "display_number": "D6-09",
+      "title": "D6-09 measurements confirmed",
+      "data": {
+        "type_code": "D6",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0045",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "window",
+      "entity_id": "demo-element-first-op-7f960d251da34673",
+      "display_number": "LW-09",
+      "title": "LW-09 measurements confirmed",
+      "data": {
+        "type_code": "LW",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0046",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "door",
+      "entity_id": "demo-element-first-op-a8c3b67de8e44d2f",
+      "display_number": "D6-10",
+      "title": "D6-10 measurements confirmed",
+      "data": {
+        "type_code": "D6",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0047",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "door",
+      "entity_id": "demo-element-first-op-e0d7538174573d82",
+      "display_number": "D3-09",
+      "title": "D3-09 measurements confirmed",
+      "data": {
+        "type_code": "D3",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0048",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "door",
+      "entity_id": "demo-element-first-op-ba520037855a6029",
+      "display_number": "D3-10",
+      "title": "D3-10 measurements confirmed",
+      "data": {
+        "type_code": "D3",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0049",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "door",
+      "entity_id": "demo-element-first-op-8ec1c4f9e9b63ac2",
+      "display_number": "D2-09",
+      "title": "D2-09 measurements confirmed",
+      "data": {
+        "type_code": "D2",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0050",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "door",
+      "entity_id": "demo-element-first-op-df2b1691cd5d7900",
+      "display_number": "D2-10",
+      "title": "D2-10 measurements confirmed",
+      "data": {
+        "type_code": "D2",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0051",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "window",
+      "entity_id": "demo-element-first-op-918b42ce4eb3c0db",
+      "display_number": "LW-10",
+      "title": "LW-10 measurements confirmed",
+      "data": {
+        "type_code": "LW",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0052",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "door",
+      "entity_id": "demo-element-first-op-3d40549c28215972",
+      "display_number": "D1-03",
+      "title": "D1-03 measurements confirmed",
+      "data": {
+        "type_code": "D1",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0053",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "window",
+      "entity_id": "demo-element-first-op-d8cb7ce1f9c8e340",
+      "display_number": "FG-01",
+      "title": "FG-01 measurements confirmed",
+      "data": {
+        "type_code": "FG",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0054",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "window",
+      "entity_id": "demo-element-first-op-6a6e93a65ad55a26",
+      "display_number": "SL1-02",
+      "title": "SL1-02 measurements confirmed",
+      "data": {
+        "type_code": "SL1",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0055",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "door",
+      "entity_id": "demo-element-first-op-961de8605443324e",
+      "display_number": "D6-11",
+      "title": "D6-11 measurements confirmed",
+      "data": {
+        "type_code": "D6",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0056",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "window",
+      "entity_id": "demo-element-first-op-89142570702aabc0",
+      "display_number": "LW-11",
+      "title": "LW-11 measurements confirmed",
+      "data": {
+        "type_code": "LW",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0057",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "door",
+      "entity_id": "demo-element-first-op-3ebc32eacb4c6893",
+      "display_number": "D6-12",
+      "title": "D6-12 measurements confirmed",
+      "data": {
+        "type_code": "D6",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0058",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "door",
+      "entity_id": "demo-element-first-op-05101fd8c8c6f04b",
+      "display_number": "D3-11",
+      "title": "D3-11 measurements confirmed",
+      "data": {
+        "type_code": "D3",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0059",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "door",
+      "entity_id": "demo-element-first-op-f0d6f5c22b40c2a3",
+      "display_number": "D3-12",
+      "title": "D3-12 measurements confirmed",
+      "data": {
+        "type_code": "D3",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0060",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "door",
+      "entity_id": "demo-element-first-op-c5072a34da001aa0",
+      "display_number": "D2-11",
+      "title": "D2-11 measurements confirmed",
+      "data": {
+        "type_code": "D2",
+        "area_m2": null,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0061",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "wall",
+      "entity_id": "demo-wall-first-wall-0a210c73df17c1f5",
+      "display_number": "WL001",
+      "title": "WL001 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": null,
+        "length_mm": 10854.9,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0062",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "wall",
+      "entity_id": "demo-wall-first-wall-fa093f9dfd4264ce",
+      "display_number": "WL002",
+      "title": "WL002 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": null,
+        "length_mm": 6766.6,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0063",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "wall",
+      "entity_id": "demo-wall-first-wall-3ff251198e897469",
+      "display_number": "WL003",
+      "title": "WL003 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": null,
+        "length_mm": 6766.6,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0064",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "wall",
+      "entity_id": "demo-wall-first-wall-09d82ac014e2cb96",
+      "display_number": "WL004",
+      "title": "WL004 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": null,
+        "length_mm": 6762.5,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0065",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "wall",
+      "entity_id": "demo-wall-first-wall-b96cd9d57ebfe2a0",
+      "display_number": "WL005",
+      "title": "WL005 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": null,
+        "length_mm": 6762.5,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0066",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "wall",
+      "entity_id": "demo-wall-first-wall-4af0b8fb8293e967",
+      "display_number": "WL006",
+      "title": "WL006 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": null,
+        "length_mm": 6534.9,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0067",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "wall",
+      "entity_id": "demo-wall-first-wall-bdfd3f4a984eb73e",
+      "display_number": "WL007",
+      "title": "WL007 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": null,
+        "length_mm": 6534.9,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0068",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "wall",
+      "entity_id": "demo-wall-first-wall-b67bf969ea14aa92",
+      "display_number": "WL008",
+      "title": "WL008 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": null,
+        "length_mm": 6530.8,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0069",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "wall",
+      "entity_id": "demo-wall-first-wall-75d2d669fbc2adc6",
+      "display_number": "WL009",
+      "title": "WL009 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": null,
+        "length_mm": 6530.8,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0070",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "wall",
+      "entity_id": "demo-wall-first-wall-46e81b15d5846de7",
+      "display_number": "WL010",
+      "title": "WL010 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": null,
+        "length_mm": 4933.7,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0071",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "wall",
+      "entity_id": "demo-wall-first-wall-3af4cb3dbf50c763",
+      "display_number": "WL011",
+      "title": "WL011 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": null,
+        "length_mm": 4925.6,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0072",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "wall",
+      "entity_id": "demo-wall-first-wall-ae3a9cb9db49a6e3",
+      "display_number": "WL012",
+      "title": "WL012 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": null,
+        "length_mm": 4925.6,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0073",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "wall",
+      "entity_id": "demo-wall-first-wall-88bc61a018ca13ad",
+      "display_number": "WL013",
+      "title": "WL013 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": null,
+        "length_mm": 4925.6,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0074",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "wall",
+      "entity_id": "demo-wall-first-wall-ca09c8922c924aa3",
+      "display_number": "WL014",
+      "title": "WL014 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": null,
+        "length_mm": 4848.4,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0075",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "wall",
+      "entity_id": "demo-wall-first-wall-04b88fcf4cd14247",
+      "display_number": "WL015",
+      "title": "WL015 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": null,
+        "length_mm": 4848.4,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0076",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "wall",
+      "entity_id": "demo-wall-first-wall-389f18e4ef9c6af6",
+      "display_number": "WL016",
+      "title": "WL016 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": null,
+        "length_mm": 3397.5,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0077",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "wall",
+      "entity_id": "demo-wall-first-wall-32f7b5d958a0349e",
+      "display_number": "WL017",
+      "title": "WL017 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": null,
+        "length_mm": 3397.5,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0078",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "wall",
+      "entity_id": "demo-wall-first-wall-32f2379c20726004",
+      "display_number": "WL018",
+      "title": "WL018 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": null,
+        "length_mm": 3385.3,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0079",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "wall",
+      "entity_id": "demo-wall-first-wall-8347de3bb95183d9",
+      "display_number": "WL019",
+      "title": "WL019 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": null,
+        "length_mm": 3385.3,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0080",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "wall",
+      "entity_id": "demo-wall-first-wall-bcf89b9a669fb934",
+      "display_number": "WL020",
+      "title": "WL020 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": null,
+        "length_mm": 3385.3,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0081",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "wall",
+      "entity_id": "demo-wall-first-wall-6b6ff757538c2ec9",
+      "display_number": "WL021",
+      "title": "WL021 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": null,
+        "length_mm": 3385.3,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0082",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "wall",
+      "entity_id": "demo-wall-first-wall-f8a2003668d17692",
+      "display_number": "WL022",
+      "title": "WL022 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": null,
+        "length_mm": 3035.8,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0083",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "wall",
+      "entity_id": "demo-wall-first-wall-4537e2e931167f9f",
+      "display_number": "WL023",
+      "title": "WL023 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": null,
+        "length_mm": 3035.8,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0084",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "wall",
+      "entity_id": "demo-wall-first-wall-082d0702fffc8ebd",
+      "display_number": "WL024",
+      "title": "WL024 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": null,
+        "length_mm": 3035.8,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0085",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "wall",
+      "entity_id": "demo-wall-first-wall-23fc396404c1d925",
+      "display_number": "WL025",
+      "title": "WL025 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": null,
+        "length_mm": 3035.8,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0086",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "wall",
+      "entity_id": "demo-wall-first-wall-d554e05dc1a6517d",
+      "display_number": "WL026",
+      "title": "WL026 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": null,
+        "length_mm": 2885.4,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0087",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "wall",
+      "entity_id": "demo-wall-first-wall-496a7882079d936d",
+      "display_number": "WL027",
+      "title": "WL027 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": null,
+        "length_mm": 2885.4,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0088",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "wall",
+      "entity_id": "demo-wall-first-wall-8298a2ce3d4bb8af",
+      "display_number": "WL028",
+      "title": "WL028 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": null,
+        "length_mm": 2885.4,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0089",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "wall",
+      "entity_id": "demo-wall-first-wall-e3848008cee0b084",
+      "display_number": "WL029",
+      "title": "WL029 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": null,
+        "length_mm": 2885.4,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0090",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "wall",
+      "entity_id": "demo-wall-first-wall-14d575cab2febbe0",
+      "display_number": "WL030",
+      "title": "WL030 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": null,
+        "length_mm": 2771.6,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0091",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "wall",
+      "entity_id": "demo-wall-first-wall-26cae1dc0c80f269",
+      "display_number": "WL031",
+      "title": "WL031 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": null,
+        "length_mm": 2771.6,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0092",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "wall",
+      "entity_id": "demo-wall-first-wall-061a352d19b1829a",
+      "display_number": "WL032",
+      "title": "WL032 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": null,
+        "length_mm": 2771.6,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0093",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "wall",
+      "entity_id": "demo-wall-first-wall-7cef2b48196c4979",
+      "display_number": "WL033",
+      "title": "WL033 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": null,
+        "length_mm": 2771.6,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0094",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "wall",
+      "entity_id": "demo-wall-first-wall-5ea6cdd5810e7096",
+      "display_number": "WL034",
+      "title": "WL034 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": null,
+        "length_mm": 2617.2,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0095",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "wall",
+      "entity_id": "demo-wall-first-wall-ced3f49393e7411d",
+      "display_number": "WL035",
+      "title": "WL035 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": null,
+        "length_mm": 2617.2,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0096",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "wall",
+      "entity_id": "demo-wall-first-wall-4ef14c72772ade52",
+      "display_number": "WL036",
+      "title": "WL036 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": null,
+        "length_mm": 2475.0,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0097",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "wall",
+      "entity_id": "demo-wall-first-wall-725c200c867c899a",
+      "display_number": "WL037",
+      "title": "WL037 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": null,
+        "length_mm": 2475.0,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0098",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "wall",
+      "entity_id": "demo-wall-first-wall-c47bcdc747bd7bef",
+      "display_number": "WL038",
+      "title": "WL038 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": null,
+        "length_mm": 2475.0,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0099",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "wall",
+      "entity_id": "demo-wall-first-wall-c76184172c14af7d",
+      "display_number": "WL039",
+      "title": "WL039 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": null,
+        "length_mm": 2475.0,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0100",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "wall",
+      "entity_id": "demo-wall-first-wall-77d9c4dd9b5d4fe2",
+      "display_number": "WL040",
+      "title": "WL040 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": null,
+        "length_mm": 2462.8,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0101",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-ground",
+      "entity_type": "floor",
+      "entity_id": "demo-room-ground-001",
+      "display_number": "R001",
+      "title": "R001 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": 697.55,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0102",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-ground",
+      "entity_type": "floor",
+      "entity_id": "demo-room-ground-002",
+      "display_number": "R002",
+      "title": "R002 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": 10.95,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0103",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-ground",
+      "entity_type": "floor",
+      "entity_id": "demo-room-ground-003",
+      "display_number": "R003",
+      "title": "R003 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": 13.14,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0104",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-ground",
+      "entity_type": "floor",
+      "entity_id": "demo-room-ground-004",
+      "display_number": "R004",
+      "title": "R004 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": 13.51,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0105",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "floor",
+      "entity_id": "demo-room-first-001",
+      "display_number": "R001",
+      "title": "R001 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": 82.06,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0106",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "floor",
+      "entity_id": "demo-room-first-002",
+      "display_number": "R002",
+      "title": "R002 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": 87.79,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0107",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "floor",
+      "entity_id": "demo-room-first-003",
+      "display_number": "R003",
+      "title": "R003 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": 71.69,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0108",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "floor",
+      "entity_id": "demo-room-first-004",
+      "display_number": "R004",
+      "title": "R004 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": 77.89,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0109",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "floor",
+      "entity_id": "demo-room-first-005",
+      "display_number": "R005",
+      "title": "R005 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": 90.33,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0110",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "floor",
+      "entity_id": "demo-room-first-006",
+      "display_number": "R006",
+      "title": "R006 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": 89.28,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0111",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "floor",
+      "entity_id": "demo-room-first-007",
+      "display_number": "R007",
+      "title": "R007 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": 74.45,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0112",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-first",
+      "entity_type": "floor",
+      "entity_id": "demo-room-first-008",
+      "display_number": "R008",
+      "title": "R008 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": 57.02,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0113",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-second",
+      "entity_type": "floor",
+      "entity_id": "demo-room-second-001",
+      "display_number": "R001",
+      "title": "R001 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": 82.06,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0114",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-second",
+      "entity_type": "floor",
+      "entity_id": "demo-room-second-002",
+      "display_number": "R002",
+      "title": "R002 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": 87.79,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0115",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-second",
+      "entity_type": "floor",
+      "entity_id": "demo-room-second-003",
+      "display_number": "R003",
+      "title": "R003 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": 71.69,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0116",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-second",
+      "entity_type": "floor",
+      "entity_id": "demo-room-second-004",
+      "display_number": "R004",
+      "title": "R004 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": 77.89,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0117",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-second",
+      "entity_type": "floor",
+      "entity_id": "demo-room-second-005",
+      "display_number": "R005",
+      "title": "R005 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": 90.33,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0118",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-second",
+      "entity_type": "floor",
+      "entity_id": "demo-room-second-006",
+      "display_number": "R006",
+      "title": "R006 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": 89.28,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0119",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-second",
+      "entity_type": "floor",
+      "entity_id": "demo-room-second-007",
+      "display_number": "R007",
+      "title": "R007 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": 74.45,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    },
+    {
+      "id": "demo-review-0120",
+      "project_id": "demo-mattegoda",
+      "floor_id": "demo-floor-second",
+      "entity_type": "floor",
+      "entity_id": "demo-room-second-008",
+      "display_number": "R008",
+      "title": "R008 measurements confirmed",
+      "data": {
+        "type_code": null,
+        "area_m2": 57.02,
+        "length_mm": null,
+        "source": "curated demo fixture"
+      },
+      "status": "confirmed",
+      "critical": false,
+      "is_stale": false,
+      "source_version": 1,
+      "review_version": 1
+    }
+  ],
+  "stale": false,
+  "active_jobs": []
+}

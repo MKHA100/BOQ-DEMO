@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+html {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+body {
+  margin: 0;
+  font-size: 15px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: #eef3f8;
+  color: #172033;
+  font-family: var(--autoboq-font-sans);
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+.autoboq-ui .text-sm {
+  font-size: 0.9375rem;
+  line-height: 1.35rem;
+}
+
+.autoboq-ui .text-xs {
+  font-size: 0.8125rem;
+  line-height: 1.15rem;
+}
+
+.workspace-grid {
+  display: grid;
+  grid-template-columns: 190px minmax(0, 1fr) 340px;
+}
+
+.workspace-header {
+  min-width: 860px;
+}
+
+.viewer-scrollbar {
+  overscroll-behavior: contain;
+  touch-action: none;
+}
+
+.viewer-scrollbar::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.viewer-scrollbar::-webkit-scrollbar-thumb {
+  background: #b9c2d0;
+  border-radius: 20px;
+}
+
+.toolbar-section {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  border: 1px solid #d9e0ea;
+  background: #ffffff;
+  border-radius: 0.75rem;
+  padding: 0.25rem;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.05);
+}
+
+.toolbar-icon-button {
+  height: 36px;
+  width: 36px;
+  padding: 0;
+}
+
+.toolbar-icon-button.is-active {
+  border-color: #bfdbfe;
+  background: #eff6ff;
+  color: #1d4ed8;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.08);
+}
+
+
+
+
+
+@media (max-width: 1100px) {
+  .workspace-grid {
+    grid-template-columns: 170px minmax(0, 1fr) 310px;
+  }
+
+  .workspace-header {
+    grid-template-columns: 170px minmax(0, 1fr) 310px;
+  }
+}
+@layer components {
+  .input {
+    @apply h-11 w-full rounded-xl border border-slate-200 bg-white px-3 text-sm outline-none transition focus:border-blue-300 focus:ring-4 focus:ring-blue-100;
+  }
+
+  .textarea {
+    @apply w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm outline-none transition focus:border-blue-300 focus:ring-4 focus:ring-blue-100;
+  }
+}

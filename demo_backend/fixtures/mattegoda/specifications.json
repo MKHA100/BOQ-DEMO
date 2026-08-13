@@ -1,0 +1,1325 @@
+{
+  "project_id": "demo-mattegoda",
+  "project_name": "Mattegoda Apartment Complex",
+  "categories": [
+    {
+      "key": "door_schedule",
+      "label": "Door Schedule",
+      "description": "Door types, structural openings and floor quantities",
+      "status": "ready",
+      "sources": [
+        {
+          "id": "source-door_schedule",
+          "category": "door_schedule",
+          "source_type": "crop",
+          "document_id": "demo-mattegoda-source",
+          "file_name": "Door schedule",
+          "mime_type": "image/png",
+          "file_size": 1,
+          "page_number": 16,
+          "crop": {
+            "x": 0,
+            "y": 0,
+            "width": 1820,
+            "height": 2573
+          },
+          "scope_mode": "all",
+          "floor_ids": [
+            "demo-floor-ground",
+            "demo-floor-first",
+            "demo-floor-second",
+            "demo-floor-third",
+            "demo-floor-fourth",
+            "demo-floor-fifth",
+            "demo-floor-sixth",
+            "demo-floor-roof-terrace",
+            "demo-floor-upper-roof"
+          ],
+          "status": "ready",
+          "preview_url": "/api/v1/demo/assets/p016.png",
+          "active_job": null,
+          "entry_count": 9,
+          "entries": [
+            {
+              "id": "schedule-D1",
+              "category": "door_schedule",
+              "entity_key": "D1",
+              "data": {
+                "type": "D1",
+                "location": "Entrance",
+                "counts": {
+                  "ground": 0,
+                  "first": 6,
+                  "second": 6,
+                  "third": 6,
+                  "fourth": 6,
+                  "fifth": 6,
+                  "sixth": 6,
+                  "terrace": 0,
+                  "total": 36
+                },
+                "opening_size": "4'-0\" x 7'-0\"",
+                "sill_height": null,
+                "lintel_height": "7'-0\"",
+                "description": "TIMBER PANELED DOOR",
+                "element_type": "door",
+                "width_mm": 1219.2,
+                "height_mm": 2133.6
+              },
+              "confidence": 0.99,
+              "review_state": "confirmed",
+              "is_accepted": true
+            },
+            {
+              "id": "schedule-D2",
+              "category": "door_schedule",
+              "entity_key": "D2",
+              "data": {
+                "type": "D2",
+                "location": "Bed room",
+                "counts": {
+                  "ground": 0,
+                  "first": 12,
+                  "second": 12,
+                  "third": 12,
+                  "fourth": 12,
+                  "fifth": 12,
+                  "sixth": 12,
+                  "terrace": 0,
+                  "total": 72
+                },
+                "opening_size": "3'-0\" x 7'-0\"",
+                "sill_height": null,
+                "lintel_height": "7'-0\"",
+                "description": "TIMBER FRAMED SOLID DOOR",
+                "element_type": "door",
+                "width_mm": 914.4,
+                "height_mm": 2133.6
+              },
+              "confidence": 0.99,
+              "review_state": "confirmed",
+              "is_accepted": true
+            },
+            {
+              "id": "schedule-D2prime",
+              "category": "door_schedule",
+              "entity_key": "D2'",
+              "data": {
+                "type": "D2'",
+                "location": "Garbage",
+                "counts": {
+                  "ground": 1,
+                  "first": 0,
+                  "second": 0,
+                  "third": 0,
+                  "fourth": 0,
+                  "fifth": 0,
+                  "sixth": 0,
+                  "terrace": 0,
+                  "total": 1
+                },
+                "opening_size": "3'-0\" x 8'-0\"",
+                "sill_height": null,
+                "lintel_height": "8'-0\"",
+                "description": "TIMBER FRAMED SOLID DOOR",
+                "element_type": "door",
+                "width_mm": 914.4,
+                "height_mm": 2438.4
+              },
+              "confidence": 0.99,
+              "review_state": "confirmed",
+              "is_accepted": true
+            },
+            {
+              "id": "schedule-D3",
+              "category": "door_schedule",
+              "entity_key": "D3",
+              "data": {
+                "type": "D3",
+                "location": "Toilets",
+                "counts": {
+                  "ground": 0,
+                  "first": 12,
+                  "second": 12,
+                  "third": 12,
+                  "fourth": 12,
+                  "fifth": 12,
+                  "sixth": 12,
+                  "terrace": 0,
+                  "total": 72
+                },
+                "opening_size": "2'-9\" x 7'-0\"",
+                "sill_height": null,
+                "lintel_height": "7'-0\"",
+                "description": "TIMBER FRAMED SOLID DOOR",
+                "element_type": "door",
+                "width_mm": 838.2,
+                "height_mm": 2133.6
+              },
+              "confidence": 0.99,
+              "review_state": "confirmed",
+              "is_accepted": true
+            },
+            {
+              "id": "schedule-D5",
+              "category": "door_schedule",
+              "entity_key": "D5",
+              "data": {
+                "type": "D5",
+                "location": "Disable toilet",
+                "counts": {
+                  "ground": 0,
+                  "first": 0,
+                  "second": 0,
+                  "third": 0,
+                  "fourth": 0,
+                  "fifth": 0,
+                  "sixth": 0,
+                  "terrace": 0,
+                  "total": 0
+                },
+                "opening_size": "3'-3\" x 8'-0\"",
+                "sill_height": null,
+                "lintel_height": "8'-0\"",
+                "description": "TIMBER FRAMED SOLID DOOR",
+                "element_type": "door",
+                "width_mm": 990.6,
+                "height_mm": 2438.4
+              },
+              "confidence": 0.99,
+              "review_state": "confirmed",
+              "is_accepted": true
+            },
+            {
+              "id": "schedule-D6",
+              "category": "door_schedule",
+              "entity_key": "D6",
+              "data": {
+                "type": "D6",
+                "location": "Duct",
+                "counts": {
+                  "ground": 0,
+                  "first": 14,
+                  "second": 14,
+                  "third": 14,
+                  "fourth": 14,
+                  "fifth": 14,
+                  "sixth": 14,
+                  "terrace": 2,
+                  "total": 86
+                },
+                "opening_size": "2'-0\" x 6'-0\"",
+                "sill_height": "1'-0\"",
+                "lintel_height": "7'-0\"",
+                "description": "ALUMINUM FRAMED COMPOSITE PANEL DOOR",
+                "element_type": "door",
+                "width_mm": 609.6,
+                "height_mm": 1828.8
+              },
+              "confidence": 0.99,
+              "review_state": "confirmed",
+              "is_accepted": true
+            },
+            {
+              "id": "schedule-D7",
+              "category": "door_schedule",
+              "entity_key": "D7",
+              "data": {
+                "type": "D7",
+                "location": "Duct",
+                "counts": {
+                  "ground": 1,
+                  "first": 2,
+                  "second": 2,
+                  "third": 2,
+                  "fourth": 2,
+                  "fifth": 2,
+                  "sixth": 2,
+                  "terrace": 2,
+                  "total": 15
+                },
+                "opening_size": "4'-0\" x 6'-0\"",
+                "sill_height": "1'-0\"",
+                "lintel_height": "7'-0\"",
+                "description": "ALUMINUM FRAMED COMPOSITE PANEL DOOR",
+                "element_type": "door",
+                "width_mm": 1219.2,
+                "height_mm": 1828.8
+              },
+              "confidence": 0.99,
+              "review_state": "confirmed",
+              "is_accepted": true
+            },
+            {
+              "id": "schedule-D8",
+              "category": "door_schedule",
+              "entity_key": "D8",
+              "data": {
+                "type": "D8",
+                "location": "Duct",
+                "counts": {
+                  "ground": 1,
+                  "first": 0,
+                  "second": 0,
+                  "third": 0,
+                  "fourth": 0,
+                  "fifth": 0,
+                  "sixth": 0,
+                  "terrace": 0,
+                  "total": 1
+                },
+                "opening_size": "2'-10\" x 6'-0\"",
+                "sill_height": "1'-0\"",
+                "lintel_height": "7'-0\"",
+                "description": "ALUMINUM FRAMED COMPOSITE PANEL DOOR",
+                "element_type": "door",
+                "width_mm": 863.6,
+                "height_mm": 1828.8
+              },
+              "confidence": 0.99,
+              "review_state": "confirmed",
+              "is_accepted": true
+            },
+            {
+              "id": "schedule-GD",
+              "category": "door_schedule",
+              "entity_key": "GD",
+              "data": {
+                "type": "GD",
+                "location": "Panel room",
+                "counts": {
+                  "ground": 1,
+                  "first": 0,
+                  "second": 0,
+                  "third": 0,
+                  "fourth": 0,
+                  "fifth": 0,
+                  "sixth": 0,
+                  "terrace": 0,
+                  "total": 1
+                },
+                "opening_size": "4'-0\" x 8'-0\"",
+                "sill_height": null,
+                "lintel_height": "8'-0\"",
+                "description": "G.I. GATE",
+                "element_type": "door",
+                "width_mm": 1219.2,
+                "height_mm": 2438.4
+              },
+              "confidence": 0.99,
+              "review_state": "confirmed",
+              "is_accepted": true
+            }
+          ],
+          "created_at": "2026-08-13T04:00:00Z",
+          "updated_at": "2026-08-13T04:00:00Z"
+        }
+      ],
+      "entry_count": 9
+    },
+    {
+      "key": "window_schedule",
+      "label": "Window Schedule",
+      "description": "Window types, sizes, sills and floor quantities",
+      "status": "ready",
+      "sources": [
+        {
+          "id": "source-window_schedule",
+          "category": "window_schedule",
+          "source_type": "crop",
+          "document_id": "demo-mattegoda-source",
+          "file_name": "Window schedule",
+          "mime_type": "image/png",
+          "file_size": 1,
+          "page_number": 16,
+          "crop": {
+            "x": 0,
+            "y": 0,
+            "width": 1820,
+            "height": 2573
+          },
+          "scope_mode": "all",
+          "floor_ids": [
+            "demo-floor-ground",
+            "demo-floor-first",
+            "demo-floor-second",
+            "demo-floor-third",
+            "demo-floor-fourth",
+            "demo-floor-fifth",
+            "demo-floor-sixth",
+            "demo-floor-roof-terrace",
+            "demo-floor-upper-roof"
+          ],
+          "status": "ready",
+          "preview_url": "/api/v1/demo/assets/p016.png",
+          "active_job": null,
+          "entry_count": 10,
+          "entries": [
+            {
+              "id": "schedule-FG",
+              "category": "window_schedule",
+              "entity_key": "FG",
+              "data": {
+                "type": "FG",
+                "location": "Staircase",
+                "counts": {
+                  "ground": 0,
+                  "first": 1,
+                  "second": 1,
+                  "third": 1,
+                  "fourth": 1,
+                  "fifth": 1,
+                  "sixth": 1,
+                  "terrace": 0,
+                  "total": 6
+                },
+                "opening_size": "8'-0\" x 8'-0\"",
+                "sill_height": null,
+                "lintel_height": "8'-0\"",
+                "description": "ALUMINUM FRAMED GLAZED WINDOW",
+                "element_type": "window",
+                "width_mm": 2438.4,
+                "height_mm": 2438.4
+              },
+              "confidence": 0.99,
+              "review_state": "confirmed",
+              "is_accepted": true
+            },
+            {
+              "id": "schedule-FG1",
+              "category": "window_schedule",
+              "entity_key": "FG1",
+              "data": {
+                "type": "FG1",
+                "location": "Staircase lobby",
+                "counts": {
+                  "ground": 0,
+                  "first": 2,
+                  "second": 2,
+                  "third": 2,
+                  "fourth": 2,
+                  "fifth": 2,
+                  "sixth": 2,
+                  "terrace": 0,
+                  "total": 12
+                },
+                "opening_size": "4'-0\" x 8'-0\"",
+                "sill_height": null,
+                "lintel_height": "8'-0\"",
+                "description": "ALUMINUM FRAMED GLAZED WINDOW",
+                "element_type": "window",
+                "width_mm": 1219.2,
+                "height_mm": 2438.4
+              },
+              "confidence": 0.99,
+              "review_state": "confirmed",
+              "is_accepted": true
+            },
+            {
+              "id": "schedule-SL",
+              "category": "window_schedule",
+              "entity_key": "SL",
+              "data": {
+                "type": "SL",
+                "location": "Lobby",
+                "counts": {
+                  "ground": 0,
+                  "first": 0,
+                  "second": 0,
+                  "third": 0,
+                  "fourth": 0,
+                  "fifth": 0,
+                  "sixth": 0,
+                  "terrace": 2,
+                  "total": 2
+                },
+                "opening_size": "6'-0\" x 8'-0\"",
+                "sill_height": null,
+                "lintel_height": "8'-0\"",
+                "description": "ALUMINUM FRAMED SLIDING WINDOW",
+                "element_type": "window",
+                "width_mm": 1828.8,
+                "height_mm": 2438.4
+              },
+              "confidence": 0.99,
+              "review_state": "confirmed",
+              "is_accepted": true
+            },
+            {
+              "id": "schedule-SL1",
+              "category": "window_schedule",
+              "entity_key": "SL1",
+              "data": {
+                "type": "SL1",
+                "location": "Living/dining and pantry",
+                "counts": {
+                  "ground": 0,
+                  "first": 2,
+                  "second": 2,
+                  "third": 2,
+                  "fourth": 2,
+                  "fifth": 2,
+                  "sixth": 2,
+                  "terrace": 0,
+                  "total": 12
+                },
+                "opening_size": "6'-2\" x 8'-0\"",
+                "sill_height": null,
+                "lintel_height": "8'-0\"",
+                "description": "ALUMINUM FRAMED SLIDING WINDOW",
+                "element_type": "window",
+                "width_mm": 1879.6,
+                "height_mm": 2438.4
+              },
+              "confidence": 0.99,
+              "review_state": "confirmed",
+              "is_accepted": true
+            },
+            {
+              "id": "schedule-SL2",
+              "category": "window_schedule",
+              "entity_key": "SL2",
+              "data": {
+                "type": "SL2",
+                "location": "Gym/condominium room",
+                "counts": {
+                  "ground": 0,
+                  "first": 0,
+                  "second": 0,
+                  "third": 0,
+                  "fourth": 0,
+                  "fifth": 0,
+                  "sixth": 0,
+                  "terrace": 8,
+                  "total": 8
+                },
+                "opening_size": "10'-0\" x 8'-0\"",
+                "sill_height": null,
+                "lintel_height": "8'-0\"",
+                "description": "ALUMINUM FRAMED SLIDING WINDOW",
+                "element_type": "window",
+                "width_mm": 3048.0,
+                "height_mm": 2438.4
+              },
+              "confidence": 0.99,
+              "review_state": "confirmed",
+              "is_accepted": true
+            },
+            {
+              "id": "schedule-FW1",
+              "category": "window_schedule",
+              "entity_key": "FW1",
+              "data": {
+                "type": "FW1",
+                "location": "Living/dining and pantry",
+                "counts": {
+                  "ground": 0,
+                  "first": 4,
+                  "second": 4,
+                  "third": 4,
+                  "fourth": 4,
+                  "fifth": 4,
+                  "sixth": 4,
+                  "terrace": 0,
+                  "total": 24
+                },
+                "opening_size": "5'-0\" x 8'-0\"",
+                "sill_height": null,
+                "lintel_height": "8'-0\"",
+                "description": "ALUMINUM FRAMED FRENCH WINDOW",
+                "element_type": "window",
+                "width_mm": 1524.0,
+                "height_mm": 2438.4
+              },
+              "confidence": 0.99,
+              "review_state": "confirmed",
+              "is_accepted": true
+            },
+            {
+              "id": "schedule-FW2",
+              "category": "window_schedule",
+              "entity_key": "FW2",
+              "data": {
+                "type": "FW2",
+                "location": "Bed room",
+                "counts": {
+                  "ground": 0,
+                  "first": 12,
+                  "second": 12,
+                  "third": 12,
+                  "fourth": 12,
+                  "fifth": 12,
+                  "sixth": 12,
+                  "terrace": 0,
+                  "total": 72
+                },
+                "opening_size": "4'-3\" x 8'-0\"",
+                "sill_height": null,
+                "lintel_height": "8'-0\"",
+                "description": "ALUMINUM FRAMED FRENCH WINDOW",
+                "element_type": "window",
+                "width_mm": 1295.4,
+                "height_mm": 2438.4
+              },
+              "confidence": 0.99,
+              "review_state": "confirmed",
+              "is_accepted": true
+            },
+            {
+              "id": "schedule-LW",
+              "category": "window_schedule",
+              "entity_key": "LW",
+              "data": {
+                "type": "LW",
+                "location": "Toilet",
+                "counts": {
+                  "ground": 0,
+                  "first": 12,
+                  "second": 12,
+                  "third": 12,
+                  "fourth": 12,
+                  "fifth": 12,
+                  "sixth": 12,
+                  "terrace": 0,
+                  "total": 72
+                },
+                "opening_size": "2'-0\" x 8'-0\"",
+                "sill_height": null,
+                "lintel_height": "8'-0\"",
+                "description": "ALUMINUM FRAMED LOUVERED WINDOW",
+                "element_type": "window",
+                "width_mm": 609.6,
+                "height_mm": 2438.4
+              },
+              "confidence": 0.99,
+              "review_state": "confirmed",
+              "is_accepted": true
+            },
+            {
+              "id": "schedule-LW1",
+              "category": "window_schedule",
+              "entity_key": "LW1",
+              "data": {
+                "type": "LW1",
+                "location": "Water tank",
+                "counts": {
+                  "ground": 0,
+                  "first": 0,
+                  "second": 0,
+                  "third": 0,
+                  "fourth": 0,
+                  "fifth": 0,
+                  "sixth": 0,
+                  "terrace": 1,
+                  "total": 1
+                },
+                "opening_size": "10'-3\" x 7'-0\"",
+                "sill_height": null,
+                "lintel_height": "7'-0\"",
+                "description": "ALUMINUM FRAMED LOUVERED WINDOW",
+                "element_type": "window",
+                "width_mm": 3124.2,
+                "height_mm": 2133.6
+              },
+              "confidence": 0.99,
+              "review_state": "confirmed",
+              "is_accepted": true
+            },
+            {
+              "id": "schedule-RD",
+              "category": "window_schedule",
+              "entity_key": "RD",
+              "data": {
+                "type": "RD",
+                "location": "Transformer",
+                "counts": {
+                  "ground": 1,
+                  "first": 0,
+                  "second": 0,
+                  "third": 0,
+                  "fourth": 0,
+                  "fifth": 0,
+                  "sixth": 0,
+                  "terrace": 0,
+                  "total": 1
+                },
+                "opening_size": "8'-0\" x 8'-0\"",
+                "sill_height": null,
+                "lintel_height": "8'-0\"",
+                "description": "ROLLER DOOR",
+                "element_type": "window",
+                "width_mm": 2438.4,
+                "height_mm": 2438.4
+              },
+              "confidence": 0.99,
+              "review_state": "confirmed",
+              "is_accepted": true
+            }
+          ],
+          "created_at": "2026-08-13T04:00:00Z",
+          "updated_at": "2026-08-13T04:00:00Z"
+        }
+      ],
+      "entry_count": 10
+    },
+    {
+      "key": "wall_schedule",
+      "label": "Wall Schedule",
+      "description": "Masonry wall types, thicknesses and performance notes",
+      "status": "ready",
+      "sources": [
+        {
+          "id": "source-wall_schedule",
+          "category": "wall_schedule",
+          "source_type": "crop",
+          "document_id": "demo-mattegoda-source",
+          "file_name": "Wall type specifications",
+          "mime_type": "image/png",
+          "file_size": 1,
+          "page_number": 7,
+          "crop": {
+            "x": 0,
+            "y": 0,
+            "width": 1820,
+            "height": 2573
+          },
+          "scope_mode": "all",
+          "floor_ids": [
+            "demo-floor-ground",
+            "demo-floor-first",
+            "demo-floor-second",
+            "demo-floor-third",
+            "demo-floor-fourth",
+            "demo-floor-fifth",
+            "demo-floor-sixth",
+            "demo-floor-roof-terrace",
+            "demo-floor-upper-roof"
+          ],
+          "status": "ready",
+          "preview_url": "/api/v1/demo/assets/p007.png",
+          "active_job": null,
+          "entry_count": 5,
+          "entries": [
+            {
+              "id": "wall-spec-M01",
+              "category": "wall_schedule",
+              "entity_key": "M01",
+              "data": {
+                "type": "M01",
+                "scope": "External masonry",
+                "value": "Nominal 225 mm clay brick or approved block masonry, subject to structural, fire, acoustic and thermal confirmation.",
+                "source": {
+                  "page": 7,
+                  "viewport": "p007_finishes"
+                },
+                "verdict": "CONFIRMED",
+                "falsifier_result": "PASSED"
+              },
+              "confidence": 0.98,
+              "review_state": "confirmed",
+              "is_accepted": true
+            },
+            {
+              "id": "wall-spec-M02",
+              "category": "wall_schedule",
+              "entity_key": "M02",
+              "data": {
+                "type": "M02",
+                "scope": "Apartment-separating / corridor wall",
+                "value": "Nominal 200/225 mm masonry or approved tested system; full height from structural slab to structural soffit; fire and acoustic performance to be confirmed.",
+                "source": {
+                  "page": 7,
+                  "viewport": "p007_finishes"
+                },
+                "verdict": "CONFIRMED",
+                "falsifier_result": "PASSED"
+              },
+              "confidence": 0.98,
+              "review_state": "confirmed",
+              "is_accepted": true
+            },
+            {
+              "id": "wall-spec-M03",
+              "category": "wall_schedule",
+              "entity_key": "M03",
+              "data": {
+                "type": "M03",
+                "scope": "Internal apartment partition",
+                "value": "Nominal 100/115 mm brick or block masonry unless otherwise dimensioned; non-load-bearing.",
+                "source": {
+                  "page": 7,
+                  "viewport": "p007_finishes"
+                },
+                "verdict": "CONFIRMED",
+                "falsifier_result": "PASSED"
+              },
+              "confidence": 0.98,
+              "review_state": "confirmed",
+              "is_accepted": true
+            },
+            {
+              "id": "wall-spec-M04",
+              "category": "wall_schedule",
+              "entity_key": "M04",
+              "data": {
+                "type": "M04",
+                "scope": "Wet-area partition",
+                "value": "Nominal 100/115 mm masonry or approved moisture-resistant system; support sanitary fittings and waterproofing system.",
+                "source": {
+                  "page": 7,
+                  "viewport": "p007_finishes"
+                },
+                "verdict": "CONFIRMED",
+                "falsifier_result": "PASSED"
+              },
+              "confidence": 0.98,
+              "review_state": "confirmed",
+              "is_accepted": true
+            },
+            {
+              "id": "wall-spec-M06",
+              "category": "wall_schedule",
+              "entity_key": "M06",
+              "data": {
+                "type": "M06",
+                "scope": "Parapet / guard wall",
+                "value": "Masonry or RCC only as structurally detailed, including waterproofed base, coping, reinforcement, movement joints and guard-loading requirements.",
+                "source": {
+                  "page": 7,
+                  "viewport": "p007_finishes"
+                },
+                "verdict": "UNVERIFIED",
+                "falsifier_result": "FAILED",
+                "blocker": "No issued structural detail identifies masonry versus RCC by location."
+              },
+              "confidence": 0.78,
+              "review_state": "needs_review",
+              "is_accepted": false
+            }
+          ],
+          "created_at": "2026-08-13T04:00:00Z",
+          "updated_at": "2026-08-13T04:00:00Z"
+        }
+      ],
+      "entry_count": 5
+    },
+    {
+      "key": "floor_schedule",
+      "label": "Floor Schedule",
+      "description": "Room finish systems and locations",
+      "status": "ready",
+      "sources": [
+        {
+          "id": "source-floor_schedule",
+          "category": "floor_schedule",
+          "source_type": "crop",
+          "document_id": "demo-mattegoda-source",
+          "file_name": "Internal finishes schedule",
+          "mime_type": "image/png",
+          "file_size": 1,
+          "page_number": 3,
+          "crop": {
+            "x": 0,
+            "y": 0,
+            "width": 1820,
+            "height": 2573
+          },
+          "scope_mode": "all",
+          "floor_ids": [
+            "demo-floor-ground",
+            "demo-floor-first",
+            "demo-floor-second",
+            "demo-floor-third",
+            "demo-floor-fourth",
+            "demo-floor-fifth",
+            "demo-floor-sixth",
+            "demo-floor-roof-terrace",
+            "demo-floor-upper-roof"
+          ],
+          "status": "ready",
+          "preview_url": "/api/v1/demo/assets/p003.png",
+          "active_job": null,
+          "entry_count": 15,
+          "entries": [
+            {
+              "id": "floor-spec-01",
+              "category": "floor_schedule",
+              "entity_key": "F01",
+              "data": {
+                "location": "Living / dining / pantry",
+                "floor": "F01 porcelain floor tiles; 100 mm matching skirting",
+                "wall": "W01 plaster, skim and washable acrylic emulsion; W04 splashback to pantry",
+                "ceiling": "C01 plaster/skim to RCC soffit with acrylic emulsion"
+              },
+              "confidence": 0.97,
+              "review_state": "confirmed",
+              "is_accepted": true
+            },
+            {
+              "id": "floor-spec-02",
+              "category": "floor_schedule",
+              "entity_key": "F02",
+              "data": {
+                "location": "Bedrooms",
+                "floor": "F01 porcelain floor tiles; 100 mm matching skirting",
+                "wall": "W01 plaster, skim and acrylic emulsion",
+                "ceiling": "C01 plaster/skim to RCC soffit with acrylic emulsion"
+              },
+              "confidence": 0.97,
+              "review_state": "confirmed",
+              "is_accepted": true
+            },
+            {
+              "id": "floor-spec-03",
+              "category": "floor_schedule",
+              "entity_key": "F03",
+              "data": {
+                "location": "Toilets / bathrooms",
+                "floor": "F02 slip-resistant porcelain/ceramic tiles to falls",
+                "wall": "W03 ceramic/porcelain wall tiles to full height unless otherwise approved",
+                "ceiling": "C02 moisture-resistant painted soffit or accessible moisture-resistant board ceiling"
+              },
+              "confidence": 0.97,
+              "review_state": "confirmed",
+              "is_accepted": true
+            },
+            {
+              "id": "floor-spec-04",
+              "category": "floor_schedule",
+              "entity_key": "F04",
+              "data": {
+                "location": "Apartment balconies",
+                "floor": "F03 exterior-grade anti-slip porcelain tiles to falls",
+                "wall": "W05 exterior render and weatherproof coating; waterproofed upstands",
+                "ceiling": "C03 exterior-grade coating to exposed soffit"
+              },
+              "confidence": 0.97,
+              "review_state": "confirmed",
+              "is_accepted": true
+            },
+            {
+              "id": "floor-spec-05",
+              "category": "floor_schedule",
+              "entity_key": "F05",
+              "data": {
+                "location": "Common corridors",
+                "floor": "F04 heavy-duty porcelain/homogeneous tiles and skirting",
+                "wall": "W02 durable washable acrylic coating over plaster",
+                "ceiling": "C01/C04 painted soffit or coordinated accessible suspended ceiling"
+              },
+              "confidence": 0.97,
+              "review_state": "confirmed",
+              "is_accepted": true
+            },
+            {
+              "id": "floor-spec-06",
+              "category": "floor_schedule",
+              "entity_key": "F06",
+              "data": {
+                "location": "Entrance and lift lobbies",
+                "floor": "F05 premium heavy-duty porcelain/homogeneous tile finish",
+                "wall": "W02 with selected feature finish where scheduled",
+                "ceiling": "C04 moisture-resistant gypsum-board ceiling or painted soffit"
+              },
+              "confidence": 0.97,
+              "review_state": "confirmed",
+              "is_accepted": true
+            },
+            {
+              "id": "floor-spec-07",
+              "category": "floor_schedule",
+              "entity_key": "F07",
+              "data": {
+                "location": "Stairs and landings",
+                "floor": "F06 non-slip granite, terrazzo or heavy-duty porcelain; contrasting nosings",
+                "wall": "W02 washable acrylic coating over plaster",
+                "ceiling": "C01 painted soffit"
+              },
+              "confidence": 0.97,
+              "review_state": "confirmed",
+              "is_accepted": true
+            },
+            {
+              "id": "floor-spec-08",
+              "category": "floor_schedule",
+              "entity_key": "F08",
+              "data": {
+                "location": "Gymnasium",
+                "floor": "F07 commercial resilient rubber/sports flooring",
+                "wall": "W06 washable impact-resistant coating; mirrors where scheduled",
+                "ceiling": "C04/C05 coordinated gypsum or acoustic ceiling"
+              },
+              "confidence": 0.97,
+              "review_state": "confirmed",
+              "is_accepted": true
+            },
+            {
+              "id": "floor-spec-09",
+              "category": "floor_schedule",
+              "entity_key": "F09",
+              "data": {
+                "location": "Condominium management room",
+                "floor": "F01 porcelain tiles and skirting",
+                "wall": "W01 acrylic emulsion over plaster",
+                "ceiling": "C01/C04 painted soffit or board ceiling"
+              },
+              "confidence": 0.97,
+              "review_state": "confirmed",
+              "is_accepted": true
+            },
+            {
+              "id": "floor-spec-10",
+              "category": "floor_schedule",
+              "entity_key": "F10",
+              "data": {
+                "location": "Ground-floor parking / driveway",
+                "floor": "F08 power-floated concrete with non-slip sealer or designed external paving",
+                "wall": "W05 weather-resistant coating; protective coating to exposed concrete",
+                "ceiling": "C03 exterior/anti-carbonation coating to exposed RCC soffit"
+              },
+              "confidence": 0.97,
+              "review_state": "confirmed",
+              "is_accepted": true
+            },
+            {
+              "id": "floor-spec-11",
+              "category": "floor_schedule",
+              "entity_key": "F11",
+              "data": {
+                "location": "Electrical / panel / plant rooms",
+                "floor": "F09 dustproof epoxy coating to concrete",
+                "wall": "W07 washable paint over render/plaster",
+                "ceiling": "C06 painted exposed soffit"
+              },
+              "confidence": 0.97,
+              "review_state": "confirmed",
+              "is_accepted": true
+            },
+            {
+              "id": "floor-spec-12",
+              "category": "floor_schedule",
+              "entity_key": "F12",
+              "data": {
+                "location": "Lift machine room",
+                "floor": "F09 dustproof epoxy coating",
+                "wall": "W07 washable paint",
+                "ceiling": "C06 painted exposed soffit"
+              },
+              "confidence": 0.97,
+              "review_state": "confirmed",
+              "is_accepted": true
+            },
+            {
+              "id": "floor-spec-13",
+              "category": "floor_schedule",
+              "entity_key": "F13",
+              "data": {
+                "location": "Roof terrace",
+                "floor": "F10 exterior anti-slip pavers/tiles over protected insulated waterproofing",
+                "wall": "W05 weatherproof coating; waterproofed upstands and copings",
+                "ceiling": "As applicable to covered areas"
+              },
+              "confidence": 0.97,
+              "review_state": "confirmed",
+              "is_accepted": true
+            },
+            {
+              "id": "floor-spec-14",
+              "category": "floor_schedule",
+              "entity_key": "F14",
+              "data": {
+                "location": "Water-tank room",
+                "floor": "F11 non-slip cementitious/tiled finish over waterproofed base",
+                "wall": "W08 waterproof cementitious coating to wet-risk surfaces",
+                "ceiling": "C07 mould-resistant coating"
+              },
+              "confidence": 0.97,
+              "review_state": "confirmed",
+              "is_accepted": true
+            },
+            {
+              "id": "floor-spec-15",
+              "category": "floor_schedule",
+              "entity_key": "F15",
+              "data": {
+                "location": "Flower troughs",
+                "floor": "F12 drainage/protection layer over root-resistant waterproofing",
+                "wall": "W09 root-resistant waterproof lining internally; weatherproof exterior finish",
+                "ceiling": "Not applicable"
+              },
+              "confidence": 0.97,
+              "review_state": "confirmed",
+              "is_accepted": true
+            }
+          ],
+          "created_at": "2026-08-13T04:00:00Z",
+          "updated_at": "2026-08-13T04:00:00Z"
+        }
+      ],
+      "entry_count": 15
+    },
+    {
+      "key": "specification",
+      "label": "Specifications",
+      "description": "General workmanship and measurement requirements",
+      "status": "ready",
+      "sources": [
+        {
+          "id": "source-specification",
+          "category": "specification",
+          "source_type": "crop",
+          "document_id": "demo-mattegoda-source",
+          "file_name": "Preliminary specifications",
+          "mime_type": "image/png",
+          "file_size": 1,
+          "page_number": 1,
+          "crop": {
+            "x": 0,
+            "y": 0,
+            "width": 1820,
+            "height": 2573
+          },
+          "scope_mode": "all",
+          "floor_ids": [
+            "demo-floor-ground",
+            "demo-floor-first",
+            "demo-floor-second",
+            "demo-floor-third",
+            "demo-floor-fourth",
+            "demo-floor-fifth",
+            "demo-floor-sixth",
+            "demo-floor-roof-terrace",
+            "demo-floor-upper-roof"
+          ],
+          "status": "ready",
+          "preview_url": "/api/v1/demo/assets/p001.png",
+          "active_job": null,
+          "entry_count": 7,
+          "entries": [
+            {
+              "id": "general-spec-01",
+              "category": "specification",
+              "entity_key": "document_status",
+              "data": {
+                "value": "Preliminary - for estimating, coordination and development of consultant information",
+                "source": {
+                  "page": 1,
+                  "viewport": "p001_notes"
+                },
+                "verdict": "CONFIRMED",
+                "falsifier_result": "PASSED"
+              },
+              "confidence": 0.96,
+              "review_state": "confirmed",
+              "is_accepted": true
+            },
+            {
+              "id": "general-spec-02",
+              "category": "specification",
+              "entity_key": "measurement_standard",
+              "data": {
+                "value": "RICS NRM 2 - Detailed Measurement for Building Works",
+                "source": {
+                  "page": 1,
+                  "viewport": "p001_notes"
+                },
+                "verdict": "CONFIRMED",
+                "falsifier_result": "PASSED"
+              },
+              "confidence": 0.96,
+              "review_state": "confirmed",
+              "is_accepted": true
+            },
+            {
+              "id": "general-spec-03",
+              "category": "specification",
+              "entity_key": "scale_precedence",
+              "data": {
+                "value": "Do not scale drawings where figured dimensions are available.",
+                "source": {
+                  "page": 2,
+                  "viewport": "p002_notes"
+                },
+                "verdict": "CONFIRMED",
+                "falsifier_result": "PASSED"
+              },
+              "confidence": 0.96,
+              "review_state": "confirmed",
+              "is_accepted": true
+            },
+            {
+              "id": "general-spec-05",
+              "category": "specification",
+              "entity_key": "wall_workmanship",
+              "data": {
+                "value": "Use approved masonry units; compatible mortar; fully filled bed and perpend joints; non-load-bearing masonry tied to RCC; no masonry is structural unless expressly identified on issued structural drawings.",
+                "source": {
+                  "pages": [
+                    8,
+                    12
+                  ],
+                  "viewports": [
+                    "p008_walls",
+                    "p012_measurement"
+                  ]
+                },
+                "verdict": "CONFIRMED",
+                "falsifier_result": "PASSED"
+              },
+              "confidence": 0.96,
+              "review_state": "confirmed",
+              "is_accepted": true
+            },
+            {
+              "id": "general-spec-07",
+              "category": "specification",
+              "entity_key": "finish_build_ups",
+              "data": {
+                "value": [
+                  {
+                    "code": "F01",
+                    "value": "600 x 600 mm nominal, minimum 9 mm porcelain tiles; matching 100 mm high tile skirting unless otherwise scheduled.",
+                    "source": {
+                      "page": 4,
+                      "viewport": "p004_finishes"
+                    }
+                  },
+                  {
+                    "code": "W01/W02",
+                    "value": "Cement-sand plaster nominally 12-15 mm thick with the scheduled coating.",
+                    "source": {
+                      "page": 5,
+                      "viewport": "p005_finishes"
+                    }
+                  },
+                  {
+                    "code": "W05",
+                    "value": "Weather-resistant cementitious render nominally 15-20 mm total thickness with compatible coating.",
+                    "source": {
+                      "page": 6,
+                      "viewport": "p006_finishes"
+                    }
+                  },
+                  {
+                    "code": "roof waterproofing",
+                    "value": "Two-layer modified-bituminous membrane or approved reinforced liquid-applied waterproofing; minimum 300 mm upstands where geometry permits.",
+                    "source": {
+                      "page": 9,
+                      "viewport": "p009_structural"
+                    }
+                  },
+                  {
+                    "code": "wet areas",
+                    "value": "Compatible cementitious or reinforced liquid waterproofing; minimum 300 mm upstands generally and full height in shower zones.",
+                    "source": {
+                      "pages": [
+                        9,
+                        10
+                      ],
+                      "viewports": [
+                        "p009_structural",
+                        "p010_waterproofing"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "confidence": 0.96,
+              "review_state": "confirmed",
+              "is_accepted": true
+            },
+            {
+              "id": "general-spec-08",
+              "category": "specification",
+              "entity_key": "authority_note",
+              "data": {
+                "value": "All clauses are preliminary. Choices expressed as alternatives remain description blockers until selected or are emitted as alternatives in draft-only work."
+              },
+              "confidence": 0.96,
+              "review_state": "confirmed",
+              "is_accepted": true
+            },
+            {
+              "id": "general-spec-09",
+              "category": "specification",
+              "entity_key": "falsifier",
+              "data": {
+                "result": "PASSED_WITH_SCOPE_LIMITS",
+                "method": "whole-set text sweep for finish, plaster, render, masonry, wall, thickness, waterproofing, scale and status; local detail notes compared with general clauses",
+                "controls": {
+                  "pages": 22,
+                  "extractable_words_per_page_min": 80,
+                  "extractable_words_per_page_max": 909
+                }
+              },
+              "confidence": 0.96,
+              "review_state": "confirmed",
+              "is_accepted": true
+            }
+          ],
+          "created_at": "2026-08-13T04:00:00Z",
+          "updated_at": "2026-08-13T04:00:00Z"
+        }
+      ],
+      "entry_count": 7
+    },
+    {
+      "key": "other",
+      "label": "Other",
+      "description": "Additional supporting information",
+      "status": "skipped",
+      "sources": [],
+      "entry_count": 0
+    }
+  ],
+  "floors": [
+    {
+      "id": "demo-floor-ground",
+      "name": "Ground Floor",
+      "level_index": 0
+    },
+    {
+      "id": "demo-floor-first",
+      "name": "First Floor",
+      "level_index": 1
+    },
+    {
+      "id": "demo-floor-second",
+      "name": "Second Floor",
+      "level_index": 2
+    },
+    {
+      "id": "demo-floor-third",
+      "name": "Third Floor",
+      "level_index": 3
+    },
+    {
+      "id": "demo-floor-fourth",
+      "name": "Fourth Floor",
+      "level_index": 4
+    },
+    {
+      "id": "demo-floor-fifth",
+      "name": "Fifth Floor",
+      "level_index": 5
+    },
+    {
+      "id": "demo-floor-sixth",
+      "name": "Sixth Floor",
+      "level_index": 6
+    },
+    {
+      "id": "demo-floor-roof-terrace",
+      "name": "Roof Terrace",
+      "level_index": 7
+    },
+    {
+      "id": "demo-floor-upper-roof",
+      "name": "Upper Roof",
+      "level_index": 8
+    }
+  ],
+  "documents": [],
+  "can_continue": true,
+  "updated_at": "2026-08-13T04:00:00Z"
+}

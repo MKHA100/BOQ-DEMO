@@ -1,0 +1,27 @@
+services:
+  backend:
+    build:
+      context: ../backend
+    environment:
+      STORAGE_ROOT: /app/storage_data
+      DATABASE_PATH: /app/storage_data/app.db
+      CORS_ORIGINS: http://localhost:3000
+    volumes:
+      - ../backend/app:/app/app
+      - ../backend/storage_data:/app/storage_data
+    ports:
+      - "8000:8000"
+    command: ["uvicorn", "app.main:app", "--reload", "--host", "0.0.0.0", "--port", "8000"]
+
+  worker:
+    build:
+      context: ../backend
+    environment:
+      STORAGE_ROOT: /app/storage_data
+      DATABASE_PATH: /app/storage_data/app.db
+    volumes:
+      - ../backend/app:/app/app
+      - ../backend/storage_data:/app/storage_data
+    command: ["python", "-m", "app.jobs.worker"]
+    depends_on:
+      - backend

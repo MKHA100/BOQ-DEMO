@@ -1,0 +1,5 @@
+import type { BoqTemplatePackage } from "../types";
+
+export function TemplatePackageEditor({ packages, selectedId, onSelect }: { packages: BoqTemplatePackage[]; selectedId: string | null; onSelect: (id: string) => void }) {
+  return <div className="space-y-2">{packages.map((item) => <button key={item.id} type="button" onClick={() => onSelect(item.id)} className={`w-full rounded-xl border p-3 text-left ${selectedId === item.id ? "border-blue-300 bg-blue-50" : "border-slate-200 bg-white hover:bg-slate-50"}`}><div className="flex items-center justify-between gap-2"><span className="font-semibold text-slate-900">{item.name}</span>{item.is_default ? <span className="rounded-full bg-emerald-100 px-2 py-0.5 text-[11px] font-semibold text-emerald-700">Selected</span> : null}</div><p className="mt-1 line-clamp-2 text-xs text-slate-500">{item.description || "Custom BOQ template package"}</p><p className="mt-2 text-[11px] font-medium text-slate-400">Version {item.version} · {item.items.length} items</p></button>)}</div>;
+}

@@ -1,0 +1,116 @@
+import type { Point } from "@/features/drawing/types";
+
+export type Centerline = { start: Point; end: Point };
+export type WallValidationSeverity = "warning" | "error";
+export type WallValidationWarning = {
+  code: string;
+  message: string;
+  severity: WallValidationSeverity;
+  wall_id?: string | null;
+  point?: Point | null;
+};
+export type WallOpening = {
+  id: string;
+  element_id: string;
+  element_number: string | null;
+  element_item_number: number | null;
+  element_display_number: string | null;
+  element_type: "door" | "window";
+  type_code: string | null;
+  width_mm: number | null;
+  height_mm: number | null;
+  opening_area_m2: number | null;
+  deduction_area_m2: number;
+};
+export type Wall = {
+  id: string;
+  project_id: string;
+  floor_id: string;
+  item_number: number;
+  display_number: string;
+  friendly_number: string;
+  source_element_id: string | null;
+  centerline: Centerline;
+  generated_centerline: Centerline;
+  classification: "internal" | "external" | null;
+  wall_type: string | null;
+  thickness_mm: number | null;
+  height_mm: number | null;
+  height_source: string | null;
+  height_override_mm: number | null;
+  length_mm: number | null;
+  gross_area_m2: number | null;
+  deduction_area_m2: number;
+  net_area_m2: number | null;
+  side_1_finish: string | null;
+  side_2_finish: string | null;
+  boundary_role: string | null;
+  status: "not_ready" | "processing" | "ready" | "needs_review" | "confirmed";
+  source?: "model" | "automatic" | "manual" | string | null;
+  confidence?: number | null;
+  manually_edited?: boolean;
+  user_confirmed?: boolean;
+  validation_warnings?: Array<WallValidationWarning | string>;
+  openings: WallOpening[];
+};
+export type OpeningElement = {
+  id: string;
+  floor_id: string;
+  item_number: number;
+  display_number: string;
+  friendly_number: string | null;
+  element_type: "door" | "window";
+  type_code: string | null;
+  wall_id: string | null;
+  geometry: { x: number; y: number; width: number; height: number };
+  dimensions: Record<string, unknown>;
+};
+export type WallFloor = {
+  id: string;
+  name: string;
+  level_index: number;
+  crop_version: number;
+  scale_version: number;
+  element_version: number;
+  wall_version: number;
+  mm_per_pixel: number | null;
+  drawing_url: string | null;
+  drawing_width: number;
+  drawing_height: number;
+  effective_height_mm: number;
+  wall_status?: "not_ready" | "processing" | "needs_review" | "ready" | "confirmed";
+  walls_confirmed?: boolean;
+  validation_warning_count?: number;
+  active_jobs: Array<{ id: string; task_type: string; status: string }>;
+};
+export type WallValidationSummary = {
+  is_valid: boolean;
+  blocking_issues: number;
+  warning_count: number;
+  warnings: Array<WallValidationWarning | string>;
+};
+export type WallsState = {
+  project_id: string;
+  floors: WallFloor[];
+  selected_floor_id: string | null;
+  walls: Wall[];
+  openings: OpeningElement[];
+  validation?: WallValidationSummary | null;
+};
+export type WallCreatePayload = {
+  centerline: Centerline;
+  classification?: "internal" | "external";
+  wall_type?: string | null;
+  thickness_mm?: number | null;
+};
+export type WallPatch = {
+  centerline?: Centerline;
+  classification?: "internal" | "external";
+  wall_type?: string | null;
+  thickness_mm?: number | null;
+  height_override_mm?: number | null;
+  use_floor_height?: boolean;
+  side_1_finish?: string | null;
+  side_2_finish?: string | null;
+  review_status?: "ready" | "needs_review" | "confirmed";
+};
