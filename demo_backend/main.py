@@ -7,7 +7,23 @@ from demo_backend.router import router
 
 
 app = FastAPI(title="AutoBOQ Demo API", version="1.0")
-cors_origins = [origin.strip() for origin in os.getenv("CORS_ORIGINS", "http://localhost:3000").split(",") if origin.strip()]
+
+
+def _cors_origin(value: str) -> str:
+    """Normalize dashboard-entered origins before Starlette compares them.
+
+    Browsers send origins without a trailing slash, while hosting dashboards
+    commonly accept and preserve one. CORS comparisons are exact, so retaining
+    that slash turns an otherwise valid browser upload into a failed preflight.
+    """
+    return value.strip().rstrip("/")
+
+
+cors_origins = [
+    _cors_origin(origin)
+    for origin in os.getenv("CORS_ORIGINS", "http://localhost:3000").split(",")
+    if _cors_origin(origin)
+]
 app.add_middleware(
     CORSMiddleware,
     allow_origins=cors_origins,
