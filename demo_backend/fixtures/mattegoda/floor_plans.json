@@ -1,0 +1,557 @@
+{
+  "project_id": "demo-mattegoda",
+  "project_name": "Mattegoda Apartment Complex",
+  "default_wall_height_mm": 3352.8,
+  "measurement_unit": "mm",
+  "floors": [
+    {
+      "id": "demo-floor-ground",
+      "project_id": "demo-mattegoda",
+      "name": "Ground Floor",
+      "level_index": 0,
+      "status": "confirmed",
+      "uses_default_height": false,
+      "wall_height_mm": 3962.4,
+      "effective_wall_height_mm": 3962.4,
+      "is_custom_name": false,
+      "source_document_id": "demo-mattegoda-source",
+      "source_page_number": 17,
+      "source_rotation": 0,
+      "crop_version": 1,
+      "crop": {
+        "id": "demo-crop-ground",
+        "project_id": "demo-mattegoda",
+        "floor_id": "demo-floor-ground",
+        "document_id": "demo-mattegoda-source",
+        "document_page_id": "demo-page-017",
+        "source_page_number": 17,
+        "original_page_width": 1820,
+        "original_page_height": 2573,
+        "rotation": 0,
+        "render_dpi": 216,
+        "coordinates": {
+          "original_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1820,
+            "height": 2573
+          },
+          "normalized_display_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 1
+          },
+          "coordinate_space": "rendered_pixels"
+        },
+        "crop_version": 1,
+        "status": "confirmed",
+        "crop_asset_url": "/api/v1/demo/assets/p017.png",
+        "preview_asset_url": "/api/v1/demo/assets/p017.png",
+        "created_at": "2026-08-13T04:00:00Z",
+        "updated_at": "2026-08-13T04:00:00Z"
+      },
+      "last_error": null,
+      "active_jobs": [],
+      "created_at": "2026-08-13T04:00:00Z",
+      "updated_at": "2026-08-13T04:00:00Z"
+    },
+    {
+      "id": "demo-floor-first",
+      "project_id": "demo-mattegoda",
+      "name": "First Floor",
+      "level_index": 1,
+      "status": "confirmed",
+      "uses_default_height": true,
+      "wall_height_mm": null,
+      "effective_wall_height_mm": 3352.8,
+      "is_custom_name": false,
+      "source_document_id": "demo-mattegoda-source",
+      "source_page_number": 18,
+      "source_rotation": 0,
+      "crop_version": 1,
+      "crop": {
+        "id": "demo-crop-first",
+        "project_id": "demo-mattegoda",
+        "floor_id": "demo-floor-first",
+        "document_id": "demo-mattegoda-source",
+        "document_page_id": "demo-page-018",
+        "source_page_number": 18,
+        "original_page_width": 1820,
+        "original_page_height": 2573,
+        "rotation": 0,
+        "render_dpi": 216,
+        "coordinates": {
+          "original_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1820,
+            "height": 2573
+          },
+          "normalized_display_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 1
+          },
+          "coordinate_space": "rendered_pixels"
+        },
+        "crop_version": 1,
+        "status": "confirmed",
+        "crop_asset_url": "/api/v1/demo/assets/p018.png",
+        "preview_asset_url": "/api/v1/demo/assets/p018.png",
+        "created_at": "2026-08-13T04:00:00Z",
+        "updated_at": "2026-08-13T04:00:00Z"
+      },
+      "last_error": null,
+      "active_jobs": [],
+      "created_at": "2026-08-13T04:00:00Z",
+      "updated_at": "2026-08-13T04:00:00Z"
+    },
+    {
+      "id": "demo-floor-second",
+      "project_id": "demo-mattegoda",
+      "name": "Second Floor",
+      "level_index": 2,
+      "status": "confirmed",
+      "uses_default_height": true,
+      "wall_height_mm": null,
+      "effective_wall_height_mm": 3352.8,
+      "is_custom_name": false,
+      "source_document_id": "demo-mattegoda-source",
+      "source_page_number": 19,
+      "source_rotation": 0,
+      "crop_version": 1,
+      "crop": {
+        "id": "demo-crop-second",
+        "project_id": "demo-mattegoda",
+        "floor_id": "demo-floor-second",
+        "document_id": "demo-mattegoda-source",
+        "document_page_id": "demo-page-019",
+        "source_page_number": 19,
+        "original_page_width": 1820,
+        "original_page_height": 2573,
+        "rotation": 0,
+        "render_dpi": 216,
+        "coordinates": {
+          "original_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1820,
+            "height": 2573
+          },
+          "normalized_display_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 1
+          },
+          "coordinate_space": "rendered_pixels"
+        },
+        "crop_version": 1,
+        "status": "confirmed",
+        "crop_asset_url": "/api/v1/demo/assets/p019.png",
+        "preview_asset_url": "/api/v1/demo/assets/p019.png",
+        "created_at": "2026-08-13T04:00:00Z",
+        "updated_at": "2026-08-13T04:00:00Z"
+      },
+      "last_error": null,
+      "active_jobs": [],
+      "created_at": "2026-08-13T04:00:00Z",
+      "updated_at": "2026-08-13T04:00:00Z"
+    },
+    {
+      "id": "demo-floor-third",
+      "project_id": "demo-mattegoda",
+      "name": "Third Floor",
+      "level_index": 3,
+      "status": "confirmed",
+      "uses_default_height": true,
+      "wall_height_mm": null,
+      "effective_wall_height_mm": 3352.8,
+      "is_custom_name": false,
+      "source_document_id": "demo-mattegoda-source",
+      "source_page_number": 19,
+      "source_rotation": 0,
+      "crop_version": 1,
+      "crop": {
+        "id": "demo-crop-third",
+        "project_id": "demo-mattegoda",
+        "floor_id": "demo-floor-third",
+        "document_id": "demo-mattegoda-source",
+        "document_page_id": "demo-page-019",
+        "source_page_number": 19,
+        "original_page_width": 1820,
+        "original_page_height": 2573,
+        "rotation": 0,
+        "render_dpi": 216,
+        "coordinates": {
+          "original_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1820,
+            "height": 2573
+          },
+          "normalized_display_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 1
+          },
+          "coordinate_space": "rendered_pixels"
+        },
+        "crop_version": 1,
+        "status": "confirmed",
+        "crop_asset_url": "/api/v1/demo/assets/p019.png",
+        "preview_asset_url": "/api/v1/demo/assets/p019.png",
+        "created_at": "2026-08-13T04:00:00Z",
+        "updated_at": "2026-08-13T04:00:00Z"
+      },
+      "last_error": null,
+      "active_jobs": [],
+      "created_at": "2026-08-13T04:00:00Z",
+      "updated_at": "2026-08-13T04:00:00Z"
+    },
+    {
+      "id": "demo-floor-fourth",
+      "project_id": "demo-mattegoda",
+      "name": "Fourth Floor",
+      "level_index": 4,
+      "status": "confirmed",
+      "uses_default_height": true,
+      "wall_height_mm": null,
+      "effective_wall_height_mm": 3352.8,
+      "is_custom_name": false,
+      "source_document_id": "demo-mattegoda-source",
+      "source_page_number": 19,
+      "source_rotation": 0,
+      "crop_version": 1,
+      "crop": {
+        "id": "demo-crop-fourth",
+        "project_id": "demo-mattegoda",
+        "floor_id": "demo-floor-fourth",
+        "document_id": "demo-mattegoda-source",
+        "document_page_id": "demo-page-019",
+        "source_page_number": 19,
+        "original_page_width": 1820,
+        "original_page_height": 2573,
+        "rotation": 0,
+        "render_dpi": 216,
+        "coordinates": {
+          "original_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1820,
+            "height": 2573
+          },
+          "normalized_display_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 1
+          },
+          "coordinate_space": "rendered_pixels"
+        },
+        "crop_version": 1,
+        "status": "confirmed",
+        "crop_asset_url": "/api/v1/demo/assets/p019.png",
+        "preview_asset_url": "/api/v1/demo/assets/p019.png",
+        "created_at": "2026-08-13T04:00:00Z",
+        "updated_at": "2026-08-13T04:00:00Z"
+      },
+      "last_error": null,
+      "active_jobs": [],
+      "created_at": "2026-08-13T04:00:00Z",
+      "updated_at": "2026-08-13T04:00:00Z"
+    },
+    {
+      "id": "demo-floor-fifth",
+      "project_id": "demo-mattegoda",
+      "name": "Fifth Floor",
+      "level_index": 5,
+      "status": "confirmed",
+      "uses_default_height": true,
+      "wall_height_mm": null,
+      "effective_wall_height_mm": 3352.8,
+      "is_custom_name": false,
+      "source_document_id": "demo-mattegoda-source",
+      "source_page_number": 19,
+      "source_rotation": 0,
+      "crop_version": 1,
+      "crop": {
+        "id": "demo-crop-fifth",
+        "project_id": "demo-mattegoda",
+        "floor_id": "demo-floor-fifth",
+        "document_id": "demo-mattegoda-source",
+        "document_page_id": "demo-page-019",
+        "source_page_number": 19,
+        "original_page_width": 1820,
+        "original_page_height": 2573,
+        "rotation": 0,
+        "render_dpi": 216,
+        "coordinates": {
+          "original_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1820,
+            "height": 2573
+          },
+          "normalized_display_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 1
+          },
+          "coordinate_space": "rendered_pixels"
+        },
+        "crop_version": 1,
+        "status": "confirmed",
+        "crop_asset_url": "/api/v1/demo/assets/p019.png",
+        "preview_asset_url": "/api/v1/demo/assets/p019.png",
+        "created_at": "2026-08-13T04:00:00Z",
+        "updated_at": "2026-08-13T04:00:00Z"
+      },
+      "last_error": null,
+      "active_jobs": [],
+      "created_at": "2026-08-13T04:00:00Z",
+      "updated_at": "2026-08-13T04:00:00Z"
+    },
+    {
+      "id": "demo-floor-sixth",
+      "project_id": "demo-mattegoda",
+      "name": "Sixth Floor",
+      "level_index": 6,
+      "status": "confirmed",
+      "uses_default_height": false,
+      "wall_height_mm": 3657.6,
+      "effective_wall_height_mm": 3657.6,
+      "is_custom_name": false,
+      "source_document_id": "demo-mattegoda-source",
+      "source_page_number": 19,
+      "source_rotation": 0,
+      "crop_version": 1,
+      "crop": {
+        "id": "demo-crop-sixth",
+        "project_id": "demo-mattegoda",
+        "floor_id": "demo-floor-sixth",
+        "document_id": "demo-mattegoda-source",
+        "document_page_id": "demo-page-019",
+        "source_page_number": 19,
+        "original_page_width": 1820,
+        "original_page_height": 2573,
+        "rotation": 0,
+        "render_dpi": 216,
+        "coordinates": {
+          "original_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1820,
+            "height": 2573
+          },
+          "normalized_display_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 1
+          },
+          "coordinate_space": "rendered_pixels"
+        },
+        "crop_version": 1,
+        "status": "confirmed",
+        "crop_asset_url": "/api/v1/demo/assets/p019.png",
+        "preview_asset_url": "/api/v1/demo/assets/p019.png",
+        "created_at": "2026-08-13T04:00:00Z",
+        "updated_at": "2026-08-13T04:00:00Z"
+      },
+      "last_error": null,
+      "active_jobs": [],
+      "created_at": "2026-08-13T04:00:00Z",
+      "updated_at": "2026-08-13T04:00:00Z"
+    },
+    {
+      "id": "demo-floor-roof-terrace",
+      "project_id": "demo-mattegoda",
+      "name": "Roof Terrace",
+      "level_index": 7,
+      "status": "confirmed",
+      "uses_default_height": false,
+      "wall_height_mm": 4267.2,
+      "effective_wall_height_mm": 4267.2,
+      "is_custom_name": false,
+      "source_document_id": "demo-mattegoda-source",
+      "source_page_number": 20,
+      "source_rotation": 0,
+      "crop_version": 1,
+      "crop": {
+        "id": "demo-crop-roof-terrace",
+        "project_id": "demo-mattegoda",
+        "floor_id": "demo-floor-roof-terrace",
+        "document_id": "demo-mattegoda-source",
+        "document_page_id": "demo-page-020",
+        "source_page_number": 20,
+        "original_page_width": 1820,
+        "original_page_height": 2573,
+        "rotation": 0,
+        "render_dpi": 216,
+        "coordinates": {
+          "original_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1820,
+            "height": 2573
+          },
+          "normalized_display_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 1
+          },
+          "coordinate_space": "rendered_pixels"
+        },
+        "crop_version": 1,
+        "status": "confirmed",
+        "crop_asset_url": "/api/v1/demo/assets/p020.png",
+        "preview_asset_url": "/api/v1/demo/assets/p020.png",
+        "created_at": "2026-08-13T04:00:00Z",
+        "updated_at": "2026-08-13T04:00:00Z"
+      },
+      "last_error": null,
+      "active_jobs": [],
+      "created_at": "2026-08-13T04:00:00Z",
+      "updated_at": "2026-08-13T04:00:00Z"
+    },
+    {
+      "id": "demo-floor-upper-roof",
+      "project_id": "demo-mattegoda",
+      "name": "Upper Roof",
+      "level_index": 8,
+      "status": "confirmed",
+      "uses_default_height": false,
+      "wall_height_mm": 3048.0,
+      "effective_wall_height_mm": 3048.0,
+      "is_custom_name": false,
+      "source_document_id": "demo-mattegoda-source",
+      "source_page_number": 21,
+      "source_rotation": 0,
+      "crop_version": 1,
+      "crop": {
+        "id": "demo-crop-upper-roof",
+        "project_id": "demo-mattegoda",
+        "floor_id": "demo-floor-upper-roof",
+        "document_id": "demo-mattegoda-source",
+        "document_page_id": "demo-page-021",
+        "source_page_number": 21,
+        "original_page_width": 1820,
+        "original_page_height": 2573,
+        "rotation": 0,
+        "render_dpi": 216,
+        "coordinates": {
+          "original_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1820,
+            "height": 2573
+          },
+          "normalized_display_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 1
+          },
+          "coordinate_space": "rendered_pixels"
+        },
+        "crop_version": 1,
+        "status": "confirmed",
+        "crop_asset_url": "/api/v1/demo/assets/p021.png",
+        "preview_asset_url": "/api/v1/demo/assets/p021.png",
+        "created_at": "2026-08-13T04:00:00Z",
+        "updated_at": "2026-08-13T04:00:00Z"
+      },
+      "last_error": null,
+      "active_jobs": [],
+      "created_at": "2026-08-13T04:00:00Z",
+      "updated_at": "2026-08-13T04:00:00Z"
+    }
+  ],
+  "documents": [
+    {
+      "id": "demo-mattegoda-source",
+      "project_id": "demo-mattegoda",
+      "document_type": "source",
+      "file_name": "Mattegoda Apartment Drawings.pdf",
+      "mime_type": "application/pdf",
+      "page_count": 22,
+      "status": "ready",
+      "is_primary": true,
+      "pages": [
+        {
+          "id": "demo-page-017",
+          "document_id": "demo-mattegoda-source",
+          "page_number": 17,
+          "page_label": "17",
+          "width": 1820,
+          "height": 2573,
+          "rotation": 0,
+          "thumbnail_status": "ready",
+          "preview_status": "ready",
+          "thumbnail_url": "/api/v1/demo/assets/p017.png",
+          "preview_url": "/api/v1/demo/assets/p017.png"
+        },
+        {
+          "id": "demo-page-018",
+          "document_id": "demo-mattegoda-source",
+          "page_number": 18,
+          "page_label": "18",
+          "width": 1820,
+          "height": 2573,
+          "rotation": 0,
+          "thumbnail_status": "ready",
+          "preview_status": "ready",
+          "thumbnail_url": "/api/v1/demo/assets/p018.png",
+          "preview_url": "/api/v1/demo/assets/p018.png"
+        },
+        {
+          "id": "demo-page-019",
+          "document_id": "demo-mattegoda-source",
+          "page_number": 19,
+          "page_label": "19",
+          "width": 1820,
+          "height": 2573,
+          "rotation": 0,
+          "thumbnail_status": "ready",
+          "preview_status": "ready",
+          "thumbnail_url": "/api/v1/demo/assets/p019.png",
+          "preview_url": "/api/v1/demo/assets/p019.png"
+        },
+        {
+          "id": "demo-page-020",
+          "document_id": "demo-mattegoda-source",
+          "page_number": 20,
+          "page_label": "20",
+          "width": 1820,
+          "height": 2573,
+          "rotation": 0,
+          "thumbnail_status": "ready",
+          "preview_status": "ready",
+          "thumbnail_url": "/api/v1/demo/assets/p020.png",
+          "preview_url": "/api/v1/demo/assets/p020.png"
+        },
+        {
+          "id": "demo-page-021",
+          "document_id": "demo-mattegoda-source",
+          "page_number": 21,
+          "page_label": "21",
+          "width": 1820,
+          "height": 2573,
+          "rotation": 0,
+          "thumbnail_status": "ready",
+          "preview_status": "ready",
+          "thumbnail_url": "/api/v1/demo/assets/p021.png",
+          "preview_url": "/api/v1/demo/assets/p021.png"
+        }
+      ]
+    }
+  ],
+  "can_continue": true,
+  "updated_at": "2026-08-13T04:00:00Z"
+}

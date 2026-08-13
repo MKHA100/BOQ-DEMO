@@ -1,0 +1,1 @@
+"""Shared AutoBOQ workflow domain."""

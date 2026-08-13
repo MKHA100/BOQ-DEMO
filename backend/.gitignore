@@ -1,0 +1,35 @@
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Local SQLite and runtime storage
+storage_data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploads / generated files / exports
+uploads/
+generated/
+exports/
+downloads/
+tmp/
+temp/
+cache/
+processed/
+crops/
+previews/
+rendered/
+reports/
+
+# Python local files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
