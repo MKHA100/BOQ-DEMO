@@ -20,6 +20,10 @@ type AuthResponse = {
 export const AUTH_TOKEN_KEY = "construction_plan_extractor_token";
 export const AUTH_USER_KEY = "construction_plan_extractor_user";
 
+export function isDemoSession(): boolean {
+  return process.env.NEXT_PUBLIC_DEMO_MODE === "true";
+}
+
 export function isLocalDevelopmentSession(): boolean {
   if (typeof window === "undefined") return false;
   const host = window.location.hostname;

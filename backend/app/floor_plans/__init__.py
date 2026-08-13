@@ -1,1 +1,0 @@
-"""Floor-plan setup domain."""

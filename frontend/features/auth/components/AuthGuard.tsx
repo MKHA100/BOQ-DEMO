@@ -3,7 +3,7 @@
 import { useEffect, type ReactNode } from "react";
 import { useRouter } from "next/navigation";
 import { appRoutes } from "@/shared/constants/appRoutes";
-import { getAuthToken, isLocalDevelopmentSession, loadCurrentUser } from "../services/authService";
+import { getAuthToken, isDemoSession, isLocalDevelopmentSession, loadCurrentUser } from "../services/authService";
 
 let verifiedToken: string | null = null;
 let verificationPromise: Promise<unknown> | null = null;
@@ -18,7 +18,9 @@ export function AuthGuard({ children }: { children: ReactNode }) {
   const router = useRouter();
 
   useEffect(() => {
-    if (isLocalDevelopmentSession()) return;
+    // The hosted showcase calls the unauthenticated demo backend. Real hosted
+    // deployments remain protected unless this explicit build-time flag is set.
+    if (isLocalDevelopmentSession() || isDemoSession()) return;
 
     const token = getAuthToken();
     if (!token) {
