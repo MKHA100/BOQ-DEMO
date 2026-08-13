@@ -1,5 +1,5 @@
 __pycache__/
 *.py[cod]
-.DS_Store
-.venv/
-*.log
+.pytest_cache/
+*.md
+scripts/

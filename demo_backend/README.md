@@ -12,6 +12,25 @@ Run:
 
 Stop the real backend first if it is already using port 8000.
 
+## Deploying the demo API
+
+Build the Docker image from the repository root:
+
+```bash
+docker build -f demo_backend/Dockerfile -t autoboq-demo-api .
+docker run --rm -p 8000:8000 -e PORT=8000 -e CORS_ORIGINS=http://localhost:3000 autoboq-demo-api
+```
+
+`CORS_ORIGINS` is a comma-separated list of permitted frontend origins. For a
+Vercel frontend, set it on Railway to the deployed Vercel URL, for example:
+
+```text
+CORS_ORIGINS=https://your-app.vercel.app
+```
+
+`CORS_ORIGIN_REGEX` is also supported when a controlled pattern is more useful,
+such as Vercel preview deployments.
+
 ## Demo sequence
 
 The mock API uses prerequisite-aware phase clocks:
