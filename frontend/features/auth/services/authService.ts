@@ -20,8 +20,19 @@ type AuthResponse = {
 export const AUTH_TOKEN_KEY = "construction_plan_extractor_token";
 export const AUTH_USER_KEY = "construction_plan_extractor_user";
 
+const PUBLIC_DEMO_HOSTS = new Set([
+  "boq-demo.vercel.app",
+  "boq-demo-mkha100s-projects.vercel.app",
+]);
+
 export function isDemoSession(): boolean {
-  return process.env.NEXT_PUBLIC_DEMO_MODE === "true";
+  if (process.env.NEXT_PUBLIC_DEMO_MODE === "true") return true;
+  if (typeof window === "undefined") return false;
+
+  // This Vercel project is an intentionally unauthenticated showcase backed by
+  // demo_backend. Keep the host allowlist narrow so other deployments still
+  // require an explicit NEXT_PUBLIC_DEMO_MODE flag.
+  return PUBLIC_DEMO_HOSTS.has(window.location.hostname);
 }
 
 export function isLocalDevelopmentSession(): boolean {
