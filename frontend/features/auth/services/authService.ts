@@ -22,7 +22,11 @@ export const AUTH_USER_KEY = "construction_plan_extractor_user";
 
 export function isLocalDevelopmentSession(): boolean {
   if (typeof window === "undefined") return false;
-  return ["localhost", "127.0.0.1", "0.0.0.0", "::1"].includes(window.location.hostname);
+  const host = window.location.hostname;
+  return ["localhost", "127.0.0.1", "0.0.0.0", "::1"].includes(host)
+    // Cloudflare Quick Tunnels are used only to share this unauthenticated demo.
+    // The real hosted application still requires a normal authenticated session.
+    || host.endsWith(".trycloudflare.com");
 }
 
 export function getAuthToken(): string | null {
