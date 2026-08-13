@@ -1042,10 +1042,10 @@ def _workflow_state(fixture: dict, project_id: str) -> dict:
         elif key == "specifications" and not specs_done and reached <= 2:
             step["status"] = "processing"
         else:
-            # Reaching a later page is an explicit demo confirmation of every
-            # prerequisite. This keeps Continue/Back navigation coherent even
-            # when the fixture pages are opened directly.
-            step["status"] = "confirmed"
+            # Visiting a workflow page makes its prerequisite data available;
+            # it is not an explicit user approval.  Reserve "confirmed" for
+            # real confirmation actions and show the navigation badge as ready.
+            step["status"] = "ready"
 
     if reached <= 1 and not plans_done:
         state["active_jobs"] = [
